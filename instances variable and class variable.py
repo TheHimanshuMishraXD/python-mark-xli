@@ -18,6 +18,8 @@ class Employee:
 # Employee.showdetails(e) 
 e = Employee("Himanshu")
 e.companyName = "SAFARI"
+e.raise_amount = 600000
+e.companyName = "Google"
 e.showdetails()
 e.companyName = "GOOGLE"
 print(Employee.companyName)
