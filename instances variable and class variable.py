@@ -31,4 +31,4 @@ print(Employee.companyName)
 # e1.raise_amount = 456
 # e1.showdetails()
 # Employee.showdetails(e)  #isme hamko ik argument paas karna hi hoga chahe jaise bhi 
-# # ye dono ik hi chiz return karege chahe kaisi bhi ho wo chiz
+# # ye dono ik hi chiz return karege chahe kaisi bhi ho wo chiz  
