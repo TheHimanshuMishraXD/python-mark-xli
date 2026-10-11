@@ -7,4 +7,4 @@ class Employee:
 
 e = Employee("Himanshu")
 e.showdetails()
-Employee.showdetails(e)
+Employee.showdetails(e)   # ye dono ik hi chiz return karege chahe kaisi bhi ho wo chiz
