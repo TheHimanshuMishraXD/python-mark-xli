@@ -7,3 +7,4 @@ class Employee:
 
 e = Employee("Himanshu")
 e.showdetails()
+Employee.showdetails(e)
