@@ -19,5 +19,6 @@ e = Employee("Himanshu")
 e.showdetails()
 e1 = Employee("Harsh")
 e1.showdetails()
+e1.raise_amount(1000)
 # Employee.showdetails(e)  #isme hamko ik argument paas karna hi hoga chahe jaise bhi 
 # # ye dono ik hi chiz return karege chahe kaisi bhi ho wo chiz
