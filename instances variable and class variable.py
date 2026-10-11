@@ -19,9 +19,9 @@ class Employee:
 e = Employee("Himanshu")
 e.companyName = "SAFARI"
 e.showdetails()
-e1 = Employee("Harsh")
-e1.showdetails()
-e1.raise_amount = 456
-e1.showdetails()
+# e1 = Employee("Harsh")
+# e1.showdetails()
+# e1.raise_amount = 456
+# e1.showdetails()
 # Employee.showdetails(e)  #isme hamko ik argument paas karna hi hoga chahe jaise bhi 
 # # ye dono ik hi chiz return karege chahe kaisi bhi ho wo chiz
