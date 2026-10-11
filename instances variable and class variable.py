@@ -1,7 +1,7 @@
 class Employee:
     def __init__(self,name):
         self.name = name 
-        def showdetails(self):
+    def showdetails(self):
             print(f"this is the details of the employee name is {self.name}")
 
 
