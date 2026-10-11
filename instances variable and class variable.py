@@ -8,11 +8,12 @@
 # Instance Variable: Python mein instance variable woh variable hota hai jo class ke kisi particular object ka data store karta hai. 
 # Isse usually self keyword ki help se define kiya jata hai, aur har object ki is variable mein alag value ho sakti hai
 class Employee:
+    companyName = "Microsoft"
     def __init__(self,name):
         self.name = name 
         self.raise_amount = 40000
     def showdetails(self):
-            print(f"this is the details of the employee name is {self.name}  , and the raise amount is {self.raise_amount}")
+            print(f"this is the details of the employee name is {self.name}  , and the raise amount is {self.raise_amount} and the company name is {self.companyName}")
 
 # Employee.showdetails(e) 
 e = Employee("Himanshu")
