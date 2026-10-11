@@ -17,8 +17,8 @@ class Employee:
 
 # Employee.showdetails(e) 
 e = Employee("Himanshu")
-e.companyName = "SAFARI"
-e.showdetails()
+# e.companyName = "SAFARI"
+# e.showdetails()
 e.companyName = "GOOGLE"
 print(Employee.companyName)
 # e1 = Employee("Harsh")
