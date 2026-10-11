@@ -14,7 +14,9 @@ class Employee:
     def showdetails(self):
             print(f"this is the details of the employee name is {self.name}")
 
-
+# Employee.showdetails(e) 
 e = Employee("Himanshu")
 e.showdetails()
-Employee.showdetails(e)  #isme hamko ik argument paas karna hi hoga chahe jaise bhi # ye dono ik hi chiz return karege chahe kaisi bhi ho wo chiz
+e1.shp
+# Employee.showdetails(e)  #isme hamko ik argument paas karna hi hoga chahe jaise bhi 
+# # ye dono ik hi chiz return karege chahe kaisi bhi ho wo chiz
