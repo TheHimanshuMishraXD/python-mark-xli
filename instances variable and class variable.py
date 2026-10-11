@@ -17,8 +17,8 @@ class Employee:
 
 # Employee.showdetails(e) 
 e = Employee("Himanshu")
-e.showdetails()
 e.companyName = "SAFARI"
+e.showdetails()
 e1 = Employee("Harsh")
 e1.showdetails()
 e1.raise_amount = 456
