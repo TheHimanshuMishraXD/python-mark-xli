@@ -1,0 +1,1 @@
+# Definition (in Hinglish): Clutter refers to unnecessary code, variables, comments, or extra statements that make a program difficult to read and maintain.
