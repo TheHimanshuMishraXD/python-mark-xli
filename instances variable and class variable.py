@@ -12,7 +12,7 @@ class Employee:
         self.name = name 
         self.raise_amount = 40000
     def showdetails(self):
-            print(f"this is the details of the employee name is {self.name}")
+            print(f"this is the details of the employee name is {self.name}  , and the raise amount is {self.raise_amount}")
 
 # Employee.showdetails(e) 
 e = Employee("Himanshu")
