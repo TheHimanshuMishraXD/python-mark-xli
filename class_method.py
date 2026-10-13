@@ -32,22 +32,42 @@
 # 4. Company ko Tesla mein change karke dono objects ka company name print karo.
 
 
-class Employee:
-    company = "Apple"
+# class Employee:
+#     company = "Apple"
 
-    def show(self):
-        print(f"hello my name is {self.name} and my company is {self.company}")
-
-
-    @classmethod
-    def change_company(cls,new_company):
-        cls.company = new_company
+#     def show(self):
+#         print(f"hello my name is {self.name} and my company is {self.company}")
 
 
+#     @classmethod
+#     def change_company(cls,new_company):
+#         cls.company = new_company
 
 
-a = Employee()
-a.name = "himanshu"
-a.show()
-a.change_company("Tesla")
-a.show()
+
+
+# a = Employee()
+# a.name = "himanshu"
+# a.show()
+# a.change_company("Tesla")
+# a.show()
+
+
+
+# Bank Management System
+# Ek BankAccount class bana, jisme:
+# 1. Class variable bank_name = "SBI" ho.
+# 2. __init__() mein account holder ka naam aur balance store ho.
+# 3. @classmethod change_bank(cls, new_name) bank ka naam update kare.
+# 4. Do objects banao — Himanshu aur Rahul.
+# 5. Bank name ko "HDFC" mein change karo.
+# 6. Dono accounts ka holder name, balance aur bank name print karo.
+# Condition: Is baar __init__() ka use bhi karna hai. Hint: self.name = name aur self.balance = balance.
+
+class bankAccount:
+    bank_name = "Sbi"
+    def __init__(self,name,balance):
+        self.name = "Name"
+        self.balance = "balance"
+
+        
