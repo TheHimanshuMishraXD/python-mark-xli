@@ -76,6 +76,9 @@ class bankAccount:
 
 
 a = bankAccount("Rahul",1000)
-b = bankAccount("Himanshu")
+b = bankAccount("Himanshu",2000)
+
+a.change_bank("HDFC")
+b.change_bank("HDFC")
 
 
