@@ -72,4 +72,9 @@ class bankAccount:
     @classmethod
     def change_bank(cls,newbank_name):
         cls.bank_name = newbank_name
-        
+
+
+
+a = bankAccount()
+a.name = "Rahul"
+a.change_bank("HDFC")
