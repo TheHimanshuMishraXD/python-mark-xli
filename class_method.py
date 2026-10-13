@@ -49,5 +49,5 @@ class Employee:
 a = Employee()
 a.name = "himanshu"
 a.show()
-a.change_company = "Tesla"
+a.change_company("Tesla")
 a.show()
