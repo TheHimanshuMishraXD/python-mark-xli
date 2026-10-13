@@ -80,7 +80,7 @@ b = bankAccount("Himanshu",2000)
 
 a.change_bank("HDFC")
 b.change_bank("HDFC")
-a.bank_name()
+print(a.bank_name())
 
 
 
