@@ -80,8 +80,8 @@ b = bankAccount("Himanshu",2000)
 
 a.change_bank("HDFC")
 b.change_bank("HDFC")
-print(a.bank_name)
-print(b.bank_name)
+print(f"this is the updated bank name of a: {a.bank_name}")
+print(f"this is the updated bank name of b:{b.bank_name}")
 
 
 
