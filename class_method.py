@@ -78,8 +78,11 @@ class bankAccount:
 a = bankAccount("Rahul",1000)
 b = bankAccount("Himanshu",2000)
 
-a.change_bank("HDFC")
-b.change_bank("HDFC")
+# a.change_bank("HDFC")
+# b.change_bank("HDFC")
+bankAccount.change_bank("HDFC")
+
+
 print(f"this is the updated bank name of a: {a.bank_name}")
 print(f"this is the updated bank name of b:{b.bank_name}")
 
