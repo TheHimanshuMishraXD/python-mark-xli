@@ -47,4 +47,5 @@ class Employee:
 
 
 a = Employee()
-a.company
+a.name = "himanshu"
+a.show()
