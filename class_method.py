@@ -67,7 +67,9 @@
 class bankAccount:
     bank_name = "Sbi"
     def __init__(self,name,balance):
-        self.name = "Name"
-        self.balance = "balance"
-
+        self.name = name
+        self.balance = balance
+    @classmethod
+    def change_bank(cls,newbank_name):
+        cls.bank_name = newbank_name
         
