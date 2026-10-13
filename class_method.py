@@ -75,7 +75,7 @@ class bankAccount:
 
 
 
-a = bankAccount()
+a = bankAccount[]
 a.name = "Rahul"
 a.change_bank("HDFC",10000)
 
