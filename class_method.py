@@ -3,4 +3,4 @@
 class student:
     company = "Apple"
     def show(self):
-        print(f"the name is {self.name}")
+        print(f"the name is {self.name} and the company name is {self.com}")
