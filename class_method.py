@@ -42,3 +42,9 @@ class Employee:
     @classmethod
     def change_company(cls,new_company):
         cls.company = new_company
+
+
+
+
+a = Employee()
+a.company
