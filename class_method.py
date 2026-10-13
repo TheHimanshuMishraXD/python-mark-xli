@@ -5,7 +5,7 @@ class Employee:
     def show(self):
         print(f"the name is {self.name} and the company name is {self.company}")
 
-
+    @classmethod
     def changeCompany(cls,newcompany):
         cls.company = newcompany
 
