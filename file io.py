@@ -91,11 +91,11 @@
 
 
 
-a  = input("enter your string:    ")
+b  = input("enter your string:    ")
 
 f = open('intro.txt' ,'a')
 
-test = f.write(a)
+test = f.write(b)
 
 #kaise kaam aayega ye Bhai, real project me file I/O ka kaam data ko program band hone ke baad bhi save rakhna hai. 
 # Abhi tumhara f.write(a) exactly wahi kar raha hai: user ka input intro.txt me save ho jaata hai. Program dobara chalaoge, to purana text file me milega.
