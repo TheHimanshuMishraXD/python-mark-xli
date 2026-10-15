@@ -113,7 +113,7 @@
 # f.close()
 
 # next mode is w+
-f = open("intro45.txt" , 'r+')
+f = open("intro45.txt" , 'w+')
 var = f.read()
 print("data in file" , var)
 f.write("we can relate the model")
