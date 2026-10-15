@@ -106,7 +106,7 @@
 
 # next mode is r+
 
-f = open("new_fileio" , 'r+')
+f = open("intro.txt" , 'r+')
 var = f.read()
 print("data in file" , var)
 f.write("we can relate the model")
