@@ -8,10 +8,10 @@
 # f.close()
 
 #for write inside the file
-f = open('my file2.txt' , 'w')
-text = f.write('Helllo ! himanshu')
+# f = open('my file2.txt' , 'w')
+# text = f.write('Helllo ! himanshu')
 
-f.close()
+# f.close()
 
 
 
