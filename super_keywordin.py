@@ -11,8 +11,6 @@ class childclass(Parentclass):
         print("himanshu")
     def child_method(self):
         print("this is the child method.")
-
-
         super().parent_method()
 
 
