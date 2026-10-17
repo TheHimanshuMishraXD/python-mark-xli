@@ -7,9 +7,9 @@ class Parentclass:
 
 
 class childclass(Parentclass):
-    def parent_method(self):
-        print("himanshu")
-        super().parent_method()
+    # def parent_method(self):
+    #     print("himanshu")
+    #     super().parent_method()
     def child_method(self):
         print("this is the child method.")
         super().parent_method()
