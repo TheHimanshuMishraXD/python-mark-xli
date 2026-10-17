@@ -4,3 +4,13 @@
 class Parentclass:
     def parent_method(self):
         print("this is the parent method")
+
+
+class childclass(Parentclass):
+    def parent_method(self):
+        print("himanshu")
+    def child_method(self):
+        print("this is the child method.")
+
+
+        super().parent_method()
