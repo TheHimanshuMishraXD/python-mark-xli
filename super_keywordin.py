@@ -20,3 +20,15 @@
 # child_object.parent_method(
 
 # )            
+
+class Employee:
+    def __init__(self, name , id ):
+        self.name = name
+        self.id= id
+
+
+class programmer:
+    def __init__(self,name,id,lang):
+        self.name = name
+        self.id= id
+        self.lang = lang
