@@ -2,4 +2,5 @@
 #Hinglish mein: super() ka use child class ke andar parent class ke methods ya constructor (__init__) ko call karne ke liye hota hai.
 
 class Parentclass:
-    def parent_method
+    def parent_method(self):
+        print("this is the parent method")
