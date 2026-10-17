@@ -32,3 +32,7 @@ class programmer:
         self.name = name
         self.id= id
         self.lang = lang
+
+
+rohan = Employee("rohan","242")
+himanshu = programmer("himanshu" , "8383" , "python")
