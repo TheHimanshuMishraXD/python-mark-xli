@@ -14,3 +14,7 @@ class childclass(Parentclass):
 
 
         super().parent_method()
+
+
+child_object = childclass()
+child_object.child_method
