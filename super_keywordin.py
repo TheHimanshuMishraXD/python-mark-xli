@@ -30,7 +30,7 @@ class Employee:
 class programmer(Employee):
     def __init__(self,name,id,lang):
         super().__init__(name,id)
-
+        self.lang = lang
 
 rohan = Employee("rohan","242")
 himanshu = programmer("himanshu" , "8383" , "python")
