@@ -34,4 +34,6 @@ class programmer(Employee):
 
 rohan = Employee("rohan","242")
 himanshu = programmer("himanshu" , "8383" , "python")
-print(rohan.name)
+print(himanshu.name)
+print(himanshu.id)
+print(himanshu.lang)
