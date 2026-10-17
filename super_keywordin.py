@@ -27,7 +27,7 @@ class Employee:
         self.id= id
 
 
-class programmer:
+class programmer(Employee):
     def __init__(self,name,id,lang):
         self.name = name
         self.id= id
@@ -36,3 +36,4 @@ class programmer:
 
 rohan = Employee("rohan","242")
 himanshu = programmer("himanshu" , "8383" , "python")
+print(rohan.name)
