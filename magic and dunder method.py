@@ -4,3 +4,4 @@ class Employee:
 
 e = Employee()
 print(e.name)
+print(len(e))
