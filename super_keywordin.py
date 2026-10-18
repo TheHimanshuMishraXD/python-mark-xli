@@ -72,11 +72,11 @@ class student(person):
         self.course = course
 
 
-child_class = person("himanshu","19")
-print(child_class.name)
-print(child_class.age)
+# child_class = person("himanshu","19")
+# print(child_class.name)
+# print(child_class.age)
 
-child_class1 = student("himanshu","19","python language course")
+child_class1 = person("himanshu","19","python language course")
 print(child_class1.name)
 print(child_class1.age)
 print(child_class1.course)
