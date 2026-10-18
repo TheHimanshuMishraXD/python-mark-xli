@@ -62,6 +62,6 @@ class book:
             i = i + 1
         return i
 
-e = book("mathematics")
+e = book()
 print(len(e))
             
