@@ -18,7 +18,8 @@
 # #     print(len(e))
 # #           ~~~^^^
 # # TypeError: object of type 'Employee' has no len()
-
+# Hinglish mein: __repr__() ek special method hai jo object ka detailed aur unambiguous string representation return karta hai,
+# jisse developers object ko easily samajh aur debug kar sakein.
 
 
 from emp import Employee
