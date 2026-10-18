@@ -56,9 +56,9 @@
 class book:
     book = "mathematics"
 
-    def __len__(self,):
+    def __len__(self):
         i = 0
-        for c in self.books:
+        for c in self.book:
             i = i + 1
         return i
 
