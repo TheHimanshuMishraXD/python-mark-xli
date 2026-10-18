@@ -28,7 +28,7 @@ class Employee:
         i = 0
         for c in self.name:
             i = i + 1
-            return i
+        return i
 
 
 e = Employee()
