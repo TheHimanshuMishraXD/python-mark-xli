@@ -61,4 +61,7 @@ class book:
         for c in self.books:
             i = i + 1
         return i
+
+e = book("mathematics")
+print(len(e))
             
