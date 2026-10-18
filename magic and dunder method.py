@@ -54,11 +54,12 @@
 # Yaad rakh: __len__() ko integer return karna chahiye
 
 class book:
+    def __init__(self,title):
     book = "python basics"
 
     def __len__(self):
         i = 0
-        for c in self.book:
+        for c in self.title:
             i = i + 1
         return i
 
