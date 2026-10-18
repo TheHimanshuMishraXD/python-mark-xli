@@ -134,4 +134,21 @@ print(child_class1.course)
 # 3. Car ke __init__() mein brand, model aur fuel_type receive karo.
 # 4. super().__init__(brand, model) se parent class ka constructor call karo.
 # 5. self.fuel_type se fuel type store karo.
-# 6. Car ka object banao aur teeno attributes print karo.
+# 6. Car ka object banao aur teeno attributes print karo.   
+
+
+class vehicle:
+    def __init__(self,brand,model):
+        self.brand = brand
+        self.model = model
+
+class car(vehicle):
+    def __init__(self,brand,model,fuel):
+        super().__init__(brand,model)
+        self.fuel = fuel
+
+information = car("Toyota","Fortuner","Diesel")
+
+print(information.brand)
+print(information.model)
+print(information.fuel)
