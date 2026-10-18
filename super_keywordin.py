@@ -73,5 +73,9 @@ class student(person):
 
 
 child_class = person("himanshu","19")
-child_class.name
-child_class.age
+print(child_class.name)
+print(child_class.age)
+
+child_class1 = student("himanshu","19")
+child_class1.name
+child_class1.age
