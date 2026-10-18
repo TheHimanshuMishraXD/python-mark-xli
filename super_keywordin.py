@@ -67,8 +67,8 @@ class person:
 
 
 class student(person):
-    def __init__(self,name,age,course):
-        super().__init__(name,age)
+    def __init__(self,name,age,course):            
+        super().__init__(name,age)     
         self.course = course
 
 
@@ -76,7 +76,41 @@ class student(person):
 # print(child_class.name)
 # print(child_class.age)
 
-child_class1 = student("himanshu","19","python language course")
+child_class1 = student("himanshu","19","python language course")   
 print(child_class1.name)
 print(child_class1.age)
 print(child_class1.course)
+
+
+
+# WORKFLOW DIAGRAM OF super().__init__()
+
+# STEP 1: Object Creation
+# student("himanshu", 19, "Python")
+#               |
+#               v
+# STEP 2: Child Class - student
+# student.__init__(name, age, course)
+#               |
+#               v
+# STEP 3: super().__init__(name, age)
+#               |
+#               v
+# STEP 4: Parent Class - person
+# person.__init__(name, age)
+#               |
+#               v
+# self.name = name
+# self.age = age
+#               |
+#               v
+# STEP 5: Control Returns to Child Class
+#               |
+#               v
+# self.course = course
+#               |
+#               v
+# STEP 6: Object Ready!
+# name   = "himanshu"
+# age    = 19
+# course = "Python"
