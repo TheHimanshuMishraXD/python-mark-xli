@@ -72,4 +72,6 @@ class student(person):
         self.course = course
 
 
-child_class = 
+child_class = person("himanshu","19")
+child_class.name
+child_class.age
