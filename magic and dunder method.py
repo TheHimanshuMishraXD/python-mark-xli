@@ -36,3 +36,22 @@ e = Employee("Himanshu")
 print(str(e))
 print(repr(e))
 e()                          
+
+
+
+
+# Task 1: __len__() — Easy
+# Ek Book class bana. Usmein title store kar aur __len__() method use karke title ke characters count kar.
+# Expected output:
+# Python Basics
+# 13
+
+
+# Hints:
+# - __init__(self, title) use kar.
+# - __len__(self) define kar.
+# - len() function ke through object ki length nikal.
+# Yaad rakh: __len__() ko integer return karna chahiye
+
+class book:
+    
