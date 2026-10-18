@@ -11,3 +11,5 @@ class Employee:
     def __repr__(self):
             return (f"the name of the employe is {self.name} repr")
     
+    def __call__(self):
+         return("hey how r u buddy")
