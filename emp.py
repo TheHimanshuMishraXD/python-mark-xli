@@ -8,6 +8,6 @@ class Employee:
         return i
     def __str__(self):
         return (f"the name of the employe is {self.name} str hai")
-     def __repr__(self):
+    def __repr__(self):
             return (f"the name of the employe is {self.name} repr")
     
