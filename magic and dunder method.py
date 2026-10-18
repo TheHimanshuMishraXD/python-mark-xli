@@ -22,20 +22,20 @@
 # jisse developers object ko easily samajh aur debug kar sakein.
 
 
-from emp import Employee
-# class Employee:
-#     name = "Harry"
-#     def __len__(self):
-#         i = 0
-#         for c in self.name:
-#             i = i + 1
-#         return i
+# from emp import Employee
+# # class Employee:
+# #     name = "Harry"
+# #     def __len__(self):
+# #         i = 0
+# #         for c in self.name:
+# #             i = i + 1
+# #         return i
 
 
-e = Employee("Himanshu")
-print(str(e))
-print(repr(e))
-e()                          
+# e = Employee("Himanshu")
+# print(str(e))
+# print(repr(e))
+# e()                          
 
 
 
@@ -60,4 +60,5 @@ class book:
         i = 0
         for c in self.books:
             i = i + 1
+        return i
             
