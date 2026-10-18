@@ -6,8 +6,8 @@ class Employee:
         for c in self.name:
             i = i + 1
         return i
-    # def __str__(self):
-    #     return (f"the name of the employe is {self.name} str hai")
+    def __str__(self):
+        return (f"the name of the employe is {self.name} str hai")
     def __repr__(self):
             return (f"the name of the employe is {self.name} repr")
     
