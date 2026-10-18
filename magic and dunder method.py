@@ -33,5 +33,6 @@ from emp import Employee
 
 
 e = Employee("Himanshu")
-print(e)
+print(str(e))
+print(repr(e))
                                                     
