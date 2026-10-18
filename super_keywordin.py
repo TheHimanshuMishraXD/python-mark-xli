@@ -114,3 +114,24 @@ print(child_class1.course)
 # name   = "himanshu"
 # age    = 19
 # course = "Python"
+
+
+
+
+
+
+# Task 3: Vehicle Management System 🚗
+# Problem: Ek parent class Vehicle banao aur ek child class Car banao.
+# Expected output
+# Brand: Toyota
+# Model: Fortuner
+# Fuel Type: Diesel
+
+
+# Hints 💡
+# 1. Vehicle class mein __init__() banao, jo brand aur model receive kare.
+# 2. Car class ko Vehicle se inherit karao.
+# 3. Car ke __init__() mein brand, model aur fuel_type receive karo.
+# 4. super().__init__(brand, model) se parent class ka constructor call karo.
+# 5. self.fuel_type se fuel type store karo.
+# 6. Car ka object banao aur teeno attributes print karo.
