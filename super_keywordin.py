@@ -152,3 +152,29 @@ information = car("Toyota","Fortuner","Diesel")
 print(information.brand)
 print(information.model)
 print(information.fuel)
+
+
+
+# information = car("Toyota", "Fortuner", "Diesel")
+#                          |
+#                          v
+#                   car.__init__()
+#                          |
+#                          v
+#             super().__init__(brand, model)
+#                          |
+#                          v
+#                 vehicle.__init__()
+#                          |
+#                          v
+#               self.brand = "Toyota"
+#               self.model = "Fortuner"
+#                          |
+#                          v
+#               Wapas car class mein
+#                          |
+#                          v
+#               self.fuel = "Diesel"
+#                          |
+#                          v
+#                   Object Ready!
