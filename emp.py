@@ -12,4 +12,4 @@ class Employee:
             return (f"the name of the employe is {self.name} repr")
     
     def __call__(self):
-         return("hey how r u buddy")
+         print("hey how r u buddy")  
