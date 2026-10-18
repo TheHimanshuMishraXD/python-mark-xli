@@ -35,4 +35,4 @@ from emp import Employee
 e = Employee("Himanshu")
 print(str(e))
 print(repr(e))
-call()                                         
+e()                          
