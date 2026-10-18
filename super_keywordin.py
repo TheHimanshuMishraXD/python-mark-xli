@@ -60,26 +60,26 @@
 
 
 
-class person:
-    def __init__(self,name,age):
-        self.name = name
-        self.age = age
+# class person:
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
 
 
-class student(person):
-    def __init__(self,name,age,course):            
-        super().__init__(name,age)     
-        self.course = course
+# class student(person):
+#     def __init__(self,name,age,course):            
+#         super().__init__(name,age)     
+#         self.course = course
 
 
-# child_class = person("himanshu","19")
-# print(child_class.name)
-# print(child_class.age)
+# # child_class = person("himanshu","19")
+# # print(child_class.name)
+# # print(child_class.age)
 
-child_class1 = student("himanshu","19","python language course")   
-print(child_class1.name)
-print(child_class1.age)
-print(child_class1.course)
+# child_class1 = student("himanshu","19","python language course")   
+# print(child_class1.name)
+# print(child_class1.age)
+# print(child_class1.course)
 
 
 
