@@ -54,9 +54,9 @@
 # Yaad rakh: __len__() ko integer return karna chahiye
 
 class book:
-    name = "Himanshu book store"
+    book = "mathematics"
 
-    def __len__(self):
+    def __len__(self,):
         i = 0
         for c in self.books:
             i = i + 1
