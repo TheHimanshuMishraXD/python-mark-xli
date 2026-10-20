@@ -23,4 +23,4 @@ class Circle(shape):
 
 
 c = Circle(5)
-print(c.area)
+print(c.area())
