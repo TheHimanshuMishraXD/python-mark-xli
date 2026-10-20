@@ -8,7 +8,7 @@ class shape:
     def area(self):
         return self.x * self.y
 
-class circle(shape):
+class Circle(shape):
     def __init__(self,radius):
         self.radius = radius
 
@@ -22,5 +22,5 @@ class circle(shape):
 # print(rec.area())
 
 
-c = circle(5)
+c = Circle(5)
 print(c.area)
