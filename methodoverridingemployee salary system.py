@@ -47,3 +47,6 @@ class Manager(Employee):
         self.age = age
         super().__init__(name,salary,age,bonus)
 
+    def showdetails(self):
+        return "basic salary"+ super().bonus()
+
