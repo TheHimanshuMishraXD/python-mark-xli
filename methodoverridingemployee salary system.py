@@ -32,19 +32,17 @@
 # Rule: Google ya mera solution copy nahi karna. Khud try karna, atke toh hint maang lena.
 
 class Employee:
-    def __init__(self,name,salary):
-        self.name = name
-        self.salary = salary
-
-    def showdetails(self,name,age,salary):
+    def __init__(self,name,age,salary):
         self.name = name
         self.age = age
         self.salary = salary
-        print(f"so the employee name is {name} and the employee age is {age} and the salary of the employee is {salary}")
+    def showdetails(self):
+        print(f"so the employee name is {self.name} and the employee age is {self.age} and the salary of the employee is {self.salary}")
 
 
 class Manager(Employee):
     def __init__(self, salary , bonus):
         self.salary = salary
         self.bonus = bonus
+        super().__init__(name,salary)
 
