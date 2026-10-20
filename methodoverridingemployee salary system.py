@@ -48,5 +48,8 @@ class Manager(Employee):
         super().__init__(name,salary,age,bonus)
 
     def showdetails(self):
-        return self.salary+ super().self.bonus
+        return self.salary+ super().self.bonus  #isme parent yani employee ko super keyowrd ki help se overrid kia gaya h
+
+
+
 
