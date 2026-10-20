@@ -18,8 +18,8 @@ class circle(shape):
 
 
 
-rec = shape(3,5)
-print(rec.area())
+# rec = shape(3,5)
+# print(rec.area())
 
 
 c = circle(5)
