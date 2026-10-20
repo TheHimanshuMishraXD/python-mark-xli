@@ -30,3 +30,17 @@
 # 3. Program run kar aur output check kar.
 # 4. Apna code yahan paste kar de — main teacher ki tarah mistakes samjhaunga, seedha solution nahi dunga.
 # Rule: Google ya mera solution copy nahi karna. Khud try karna, atke toh hint maang lena.
+
+class Employee:
+    def __init__(self,salary):
+        self.salary = salary
+
+    def showdetails(self,name,age,salary):
+        self.name = name
+        self.age = age
+        self.salary = salary
+        print(f"so the employee name is {name} and the employee age is {age} and the salary of the employee is {salary}")
+
+
+class Manager(Employee):
+    
