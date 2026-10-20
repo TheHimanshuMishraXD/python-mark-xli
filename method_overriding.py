@@ -23,4 +23,4 @@ print(rec.area())
 
 
 c = circle(5)
-print(c.area)
+print(c.area())
