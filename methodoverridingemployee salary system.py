@@ -41,8 +41,9 @@ class Employee:
 
 
 class Manager(Employee):
-    def __init__(self, salary , bonus):
+    def __init__(self,name,age,salary , bonus):
         self.salary = salary
         self.bonus = bonus
-        super().__init__(name,salary)
+        self.age = age
+        super().__init__(name,salary,age,bonus)
 
