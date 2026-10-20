@@ -20,3 +20,7 @@ class circle(shape):
 
 rec = shape(3,5)
 print(rec.area())
+
+
+c = circle(5)
+print(c.area)
