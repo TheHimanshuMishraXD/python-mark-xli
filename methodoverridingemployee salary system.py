@@ -43,4 +43,7 @@ class Employee:
 
 
 class Manager(Employee):
-    
+    def __init__(self, salary , bonus):
+        self.salary = salary
+        self.bonus = bonus
+        
