@@ -45,10 +45,18 @@ class Manager(Employee):
         self.salary = salary
         self.bonus = bonus
         self.age = age
-        super().__init__(name,age,salary,self.bonus)
+        super().__init__(name,age,salary)
 
     def showdetails(self):
-        return self.salary+ super().self.bonus  #isme parent yani employee ko super keyowrd ki help se overrid kia gaya h
+        return self.salary + self.bonus  
+
+# super().__init__(name, age, salary) — parent class ka constructor call karta hai
+# super().__init__(name, age, salary) — parent class ka constructor call karta hai.
+
+# Manager ke andar showdetails() ko dobara define karna — method overriding hai.
+
+c = Manager("Aman",23,5000,1000)
+print(c.showdetails)
 
 
 
