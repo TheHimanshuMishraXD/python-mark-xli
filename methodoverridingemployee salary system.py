@@ -56,7 +56,7 @@ class Manager(Employee):
 # Manager ke andar showdetails() ko dobara define karna — method overriding hai.
 
 c = Manager("Aman",23,5000,1000)
-print(c.showdetails)
+print(c.Employee)
 
 
 
