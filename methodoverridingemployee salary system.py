@@ -32,7 +32,8 @@
 # Rule: Google ya mera solution copy nahi karna. Khud try karna, atke toh hint maang lena.
 
 class Employee:
-    def __init__(self,salary):
+    def __init__(self,name,salary):
+        self.name = name
         self.salary = salary
 
     def showdetails(self,name,age,salary):
@@ -46,4 +47,4 @@ class Manager(Employee):
     def __init__(self, salary , bonus):
         self.salary = salary
         self.bonus = bonus
-        
+
