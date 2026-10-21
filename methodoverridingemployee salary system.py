@@ -51,7 +51,7 @@ class Manager(Employee):
         return self.salary + self.bonus  
 
 # super().__init__(name, age, salary) — parent class ka constructor call karta hai
-# super().__init__(name, age, salary) — parent class ka constructor call karta hai.
+# super().__init__(name, age, salary) — parent class ka constructor call karta hai.         
 
 # Manager ke andar showdetails() ko dobara define karna — method overriding hai.
 
