@@ -13,3 +13,10 @@ class Dog(Animal):
 
     def make_sound(self):
         print("Bark")
+
+
+d = Dog("Dog" , "dogerman")
+d.make_sound
+
+a = Animal("dog","dog")
+a.make_sound
