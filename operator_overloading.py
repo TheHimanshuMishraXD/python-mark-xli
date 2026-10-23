@@ -73,3 +73,6 @@ class vector:
 
     def __substarct__(self,x):
         return f"{self.i-self.x.i}i+{self.j-self.x.j}+{self.k-self.x.k}"
+
+v1 = vector(4,5,6)
+print(v1)
