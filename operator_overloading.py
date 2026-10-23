@@ -20,3 +20,26 @@ print(v1+v2)
 
 
 # here the code is totally completed                
+
+# 3 real-world examples
+# 1. AI / Machine Learning 🤖
+
+# Vectors aur matrices add karne mein:
+# vector1 + vector2
+
+
+
+# AI models mein numerical calculations hoti hain. Libraries jaise NumPy arrays ke saath + use karne deti hain.
+
+# 2. E-commerce application 🛒
+
+# Do shopping carts ke items combine karne ke liye:
+# cart1 + cart2
+
+
+
+# Is behaviour ko custom class mein __add__() se define kar sakte hain.
+
+# 3. Banking system 💰
+
+# Do custom money objects ko add karne ke liye:
