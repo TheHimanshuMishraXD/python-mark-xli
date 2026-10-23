@@ -65,3 +65,8 @@ class vector:
     def __int__(self,i,j,k):
         self.i = i
         self.j = j
+        self.k = k
+
+
+    def __str__(self):
+        return f"{self.x}i+{self.j}"
