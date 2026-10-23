@@ -73,7 +73,7 @@ class vector:
 
     def __sub__(self,x):
         self.x=x
-        return f"{self.i-self.x.i}i+{self.j-self.x.j}+{self.k-self.x.k}"
+        return f"{self.i-self.x.i}i+{self.j-self.x.j}j+{self.k-self.x.k}k"
 
 v1 = vector(4,5,6)
 print(v1)
