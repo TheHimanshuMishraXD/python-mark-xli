@@ -69,7 +69,7 @@ class vector:
 
 
     def __str__(self):
-        return f"{self.x}i+{self.j}j+{self.k}k"
+        return f"{self.i}i+{self.j}j+{self.k}k"
 
     def __substarct__(self,x):
         return f"{self.i-self.x.i}i+{self.j-self.x.j}+{self.k-self.x.k}"
