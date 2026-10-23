@@ -58,3 +58,10 @@ print(v1+v2)
 
 
 # Expected output: 7i+6j+5k
+
+
+
+class vector:
+    def __int__(self,i,j,k):
+        self.i = i
+        self.j = j
