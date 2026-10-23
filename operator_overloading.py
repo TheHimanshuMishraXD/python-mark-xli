@@ -3,3 +3,6 @@ class vector:
         self.o = i
         self.j = j
         self.k = k
+
+    def __str__(self):
+        return
