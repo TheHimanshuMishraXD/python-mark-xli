@@ -1,22 +1,22 @@
-class vector:
-    def __init__(self,i,j,k):
-        self.i = i
-        self.j = j
-        self.k = k
+# class vector:
+#     def __init__(self,i,j,k):
+#         self.i = i
+#         self.j = j
+#         self.k = k
 
-    def __str__(self):
-        return f"{self.i}i+{self.j}j+{self.k}k"
+#     def __str__(self):
+#         return f"{self.i}i+{self.j}j+{self.k}k"
 
-    def __add__(self, x):
-        return f"{self.i + x.i}i+{self.j+x.j}j+{self.k+x.k}k"
+#     def __add__(self, x):
+#         return f"{self.i + x.i}i+{self.j+x.j}j+{self.k+x.k}k"
 
-v1 = vector(4,5,6)
-print(v1)
+# v1 = vector(4,5,6)
+# print(v1)
 
-v2 = vector(6,7,8)
-print(v2)
+# v2 = vector(6,7,8)
+# print(v2)
 
-print(v1+v2)                  
+# print(v1+v2)                  
 
 
 # here the code is totally completed                
