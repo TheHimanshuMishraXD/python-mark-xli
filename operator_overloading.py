@@ -9,3 +9,6 @@ class vector:
 
 v1 = vector(4,5,6)
 print(v1)
+
+v2 = vector(6,7,8)
+print(v2)
