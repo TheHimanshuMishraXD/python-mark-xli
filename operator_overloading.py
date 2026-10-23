@@ -43,3 +43,18 @@ print(v1+v2)
 # 3. Banking system 💰
 
 # Do custom money objects ko add karne ke liye:
+
+
+
+# tasks----> Python OOP — Today's Practice Tasks 💻
+
+# Task 1 — Vector Subtraction
+# Easy
+# Apni vector class mein __sub__() method bana, taaki do vectors ko - se subtract kar sake.
+
+# Example:
+# v1 = vector(10, 8, 6)v2 = vector(3, 2, 1)print(v1 - v2)
+
+
+
+# Expected output: 7i+6j+5k
