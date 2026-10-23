@@ -62,7 +62,7 @@ print(v1+v2)
 
 
 class vector:
-    def __int__(self,i,j,k):
+    def __init__(self,i,j,k):
         self.i = i
         self.j = j
         self.k = k
@@ -70,3 +70,6 @@ class vector:
 
     def __str__(self):
         return f"{self.x}i+{self.j}j+{self.k}k"
+
+    def __substarct__(self,x):
+        return f"{self.i-self.xi}"
