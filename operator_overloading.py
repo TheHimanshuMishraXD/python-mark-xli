@@ -79,3 +79,7 @@ print(v1)
 
 v2 = vector(7,8,9)
 print(v2)
+
+result = v1-v2
+
+print(result)
