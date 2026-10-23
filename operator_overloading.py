@@ -7,5 +7,5 @@ class vector:
     def __str__(self):
         return f"{self.i}i+{self.j}j+{self.k}k"
 
-v = vector(4,5,6)
-print(v)
+v1 = vector(4,5,6)
+print(v1)
