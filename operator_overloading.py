@@ -69,4 +69,4 @@ class vector:
 
 
     def __str__(self):
-        return f"{self.x}i+{self.j}"
+        return f"{self.x}i+{self.j}j+{self.k}k"
