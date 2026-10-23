@@ -16,7 +16,7 @@ class Dog(Animal):
 
 
 d = Dog("Dog" , "dogerman")
-d.make_sound
+d.make_sound()
 
 a = Animal("dog","dog")
-a.make_sound
+a.make_sound()
