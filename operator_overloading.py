@@ -8,7 +8,7 @@ class vector:
         return f"{self.i}i+{self.j}j+{self.k}k"
 
     def __add__(self, x):
-        return f"{self.i + x.i}i+{self.j}j+{self.k}k"
+        return f"{self.i + x.i}i+{self.j+x.j}j+{self.k+x.k}k"
 
 v1 = vector(4,5,6)
 print(v1)
