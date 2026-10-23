@@ -4,4 +4,4 @@ class Animal:
         self.name=name
         self.spacial=spacial
     def make_sound(self):
-        print()
+        print("sound maked by the animal")
