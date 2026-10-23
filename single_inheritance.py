@@ -1,0 +1,1 @@
+# single inheritance in python
