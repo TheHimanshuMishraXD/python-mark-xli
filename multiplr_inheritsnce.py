@@ -19,5 +19,6 @@ class DancerEmployee(Employee,dancer):
 a = DancerEmployee("Himanshu","kathak")
 print(a.name)
 print(a.dance)
+a.showdetails()
 
 
