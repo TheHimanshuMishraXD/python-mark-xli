@@ -14,4 +14,5 @@ class DancerEmployee(Employee,dancer):
         self.dance = dance
 
 a = DancerEmployee("Himanshu","kathak")
-print(a)
+print(a.name)
+print(a.dance)
