@@ -2,15 +2,20 @@ class Employee:
     def __init__(self):
         def __init__ (self,name):
             self.name = name
+    def showdetails(self):
+                    print(f"my name is{self.name}")
+        
+    
         
 
 class dancer:
     def __init__(self,dance):
          self.dance = dance
-    def showdetails(self):
-                print(f"my name is{self.name}")
+    def showdetails1(self):
+                    print(f"my dance is{self.dance}")
+        
     
-
+    
 class DancerEmployee(Employee,dancer):
     def __init__(self,name,dance):
         self.name = name
@@ -19,6 +24,6 @@ class DancerEmployee(Employee,dancer):
 a = DancerEmployee("Himanshu","kathak")
 print(a.name)
 print(a.dance)
-a.showdetails()
+a.showdetails1()
 
 
