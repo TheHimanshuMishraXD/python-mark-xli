@@ -2,6 +2,8 @@ class Employee:
     def __init__(self):
         def __init__ (self,name):
             self.name = name
+        def showdetails(self):
+            print(f"my name is{self.name}")
 
 
 class dancer:
