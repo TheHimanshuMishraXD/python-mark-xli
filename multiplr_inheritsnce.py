@@ -26,4 +26,7 @@ print(a.name)
 print(a.dance)
 a.showdetails1()
 
+# mro method -- method resolution order
+print(DancerEmployee.mro())
+
 
