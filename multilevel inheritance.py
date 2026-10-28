@@ -72,6 +72,10 @@ class persiancat(cat):
         super().__init__(name,color)
         self.breed = "persian"
 
+    def showdetails(self):
+         super().showdetails()
+         print(f"breed: {self.breed}")
+
 o = persiancat("billa", "rampuri")
 o.showdetails()
         
