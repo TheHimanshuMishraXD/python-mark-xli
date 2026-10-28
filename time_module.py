@@ -4,3 +4,6 @@ def usingwhile():
         i = i + 1
         print(i)
 usingwhile()
+
+
+for i in range()
