@@ -65,7 +65,7 @@ class cat(Animal):
 
     def showdetails(self):
         Animal.showdetails(self)
-        print(f"species: {self.species}")
+        print(f"species: {self.color}")
 
 class persiancat(cat):
     def __init__(self, name, color):
@@ -73,6 +73,6 @@ class persiancat(cat):
         cat.__init__(self,name,breed="persian")
 
 o = Animal("billa", "rampuri")
-o.showdetails
+o.showdetails()
         
         
