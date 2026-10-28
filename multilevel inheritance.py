@@ -22,4 +22,10 @@ class Dog(Animal):
 class Godenretirever:
     def __init__(self,name,colour):
         Dog.__int__(self,name,breed="Golden retriever")
+        self.colour = colour
+
+
+    def show_details(self):
+        Dog.showdetails(self)
+        print(f'colour:' {self.colour})
 
