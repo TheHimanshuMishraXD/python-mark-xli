@@ -13,3 +13,6 @@ class Dog(Animal):
         Animal.__int__(self,name,species="Dog")
         self.breed = breed
 
+    def showdetails(self):
+        Animal.showdetails(self):
+
