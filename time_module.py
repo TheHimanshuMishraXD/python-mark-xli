@@ -6,7 +6,7 @@ def usingwhile():
         print(i)
 
 def usingfor():
-    for i in range(5):
+    for i in range(18):
       print(i)
 init = time.time()
 
