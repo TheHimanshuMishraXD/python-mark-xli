@@ -16,3 +16,7 @@ class Dog(Animal):
     def showdetails(self):
         Animal.showdetails(self):
 
+
+
+class Godenretirever
+
