@@ -16,5 +16,5 @@ import time
 # print(time.time()-init)  # ye batata hai ki apka program kitne time me run kia hai
 
 print(4)
-time.sleep(3)
+time.sleep(5)
 print("this is printed after 3 seconds")
