@@ -15,6 +15,12 @@ import time
 # usingfor()
 # print(time.time()-init)  # ye batata hai ki apka program kitne time me run kia hai
 
-print(4)
-time.sleep(5)
-print("this is printed after 3 seconds")
+# print(4)
+# time.sleep(5)
+# print("this is printed after 3 seconds")  #iska use ye hai ki ye program itne time baad chlega
+
+
+t = time.localtime()
+
+formatted_time = time.strftime("%y-%m-%d %H %M %S",t)
+print(formatted_time)
