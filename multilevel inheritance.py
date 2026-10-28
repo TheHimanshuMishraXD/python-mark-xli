@@ -27,5 +27,5 @@ class Godenretirever:
 
     def show_details(self):
         Dog.showdetails(self)
-        print(f'colour:' {self.colour})
+        print(f'colour: {self.colour}')
 
