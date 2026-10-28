@@ -3,3 +3,7 @@
     
 
 from pypdf import PdfWriter
+mergr = PdfWriter()
+
+for pdf in ("pdf 1", "pdf-2", "pdf-3"):
+    
