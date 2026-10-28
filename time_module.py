@@ -9,4 +9,4 @@ def usingfor():
       print(i)
 
 usingwhile()
-usingfor(s)
+usingfor()
