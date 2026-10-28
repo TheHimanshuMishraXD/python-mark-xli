@@ -66,5 +66,7 @@ class cat(Animal):
     def showdetails(self):
         Animal.showdetails(self)
         print(f"species: {self.species}")
+
+class 
         
         
