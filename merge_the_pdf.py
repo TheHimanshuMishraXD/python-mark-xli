@@ -47,4 +47,4 @@ import os
 
 merger = PdfWriter()
 
-files = [for file in file in os.listdir()]
+files = [for file in file in os.listdir() if file.endswith(".pdf" and file != "merger-pdf.pdf")]
