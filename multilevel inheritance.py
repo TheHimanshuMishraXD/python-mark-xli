@@ -1,4 +1,4 @@
-class Aninal:
+class Animal:
     def __int__(self,name,species):
         self.name = name
         self.species = species
@@ -10,5 +10,6 @@ class Aninal:
 
 class Dog(Animal):
     def __int__(self,name,breed):
-        Aninal.__int__(self,name,species="Dog")
+        Animal.__int__(self,name,species="Dog")
         self.breed = breed
+
