@@ -24,23 +24,23 @@
 # merger.close()
 
 
-from pypdf import PdfWriter
-import os
+# from pypdf import PdfWriter
+# import os
 
-merger = PdfWriter()
+# merger = PdfWriter()
 
-files = [
-    file for file in os.listdir()
-    if file.endswith(".pdf") and file != "merger-pdf.pdf"
-]
+# files = [
+#     file for file in os.listdir()
+#     if file.endswith(".pdf") and file != "merger-pdf.pdf"
+# ]
 
-for pdf in files:
-    merger.append(pdf)
+# for pdf in files:
+#     merger.append(pdf)
 
-merger.write("merger-pdf.pdf")
-merger.close()
+# merger.write("merger-pdf.pdf")
+# merger.close()
 
-print("PDFs merged successfully!")
+# print("PDFs merged successfully!")
 
 from pypdf import PdfWriter
 import os
