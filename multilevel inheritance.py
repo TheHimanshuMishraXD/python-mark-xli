@@ -33,19 +33,24 @@ o = Godenretirever("tommy","black")
 o.show_details()
 print(Godenretirever.mro())
 
-🐾 Task 1: Animal Inheritance System
-Easy · 15–20 min
-Goal: Animal → Cat → PersianCat
+# 🐾 Task 1: Animal Inheritance System
+# Easy · 15–20 min
+# Goal: Animal → Cat → PersianCat
 
-Step 1: Animal class bana.
-- Constructor mein name aur species set kar.
-- show_details() method bana jo dono print kare.
-Step 2: Cat class bana jo Animal ko inherit kare.
-- Constructor mein name aur color le.
-- Parent constructor ko call karke species = "Cat" set kar.
-- show_details() override kar aur parent ki details bhi print kar.
-Step 3: PersianCat class bana jo Cat ko inherit kare.
-- Constructor mein name aur color le.
-- breed = "Persian" set kar.
-- Parent methods ka use karke saari details print kar.
+# Step 1: Animal class bana.
+# - Constructor mein name aur species set kar.
+# - show_details() method bana jo dono print kare.
+# Step 2: Cat class bana jo Animal ko inherit kare.
+# - Constructor mein name aur color le.
+# - Parent constructor ko call karke species = "Cat" set kar.
+# - show_details() override kar aur parent ki details bhi print kar.
+# Step 3: PersianCat class bana jo Cat ko inherit kare.
+# - Constructor mein name aur color le.
+# - breed = "Persian" set kar.
+# - Parent methods ka use karke saari details print kar.
 
+class Animal:
+    def __init__(self,name,species):
+        self.name = name
+        
+        
