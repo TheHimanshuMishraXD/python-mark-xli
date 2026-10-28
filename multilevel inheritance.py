@@ -79,4 +79,16 @@ class persiancat(cat):
 o = persiancat("billa", "rampuri")
 o.showdetails()
         
-        
+
+
+# 2. Real-life example
+# Maan le tu ek college management system bana raha hai:
+# - Person — name, age
+# - Student(Person) — roll number, marks
+# - EngineeringStudent(Student) — branch, programming skills
+# Ab EngineeringStudent ke paas Person aur Student dono ke inherited features honge, plus apne extra features.
+# 3. Multilevel inheritance ke benefits
+# - Code reusability: Same code dobara nahi likhna.
+# - Easy maintenance: Parent class mein change karne par child classes ko updated behavior mil sakta hai.
+# - Logical structure: Related classes ko hierarchy mein organize kar sakte ho.
+# - Method overriding: Child class parent ke behavior ko customize kar sakti hai.
