@@ -72,7 +72,7 @@ class persiancat(cat):
 
         cat.__init__(self,name,breed="persian")
 
-o = Animal("billa", "rampuri")
+o = persiancat("billa", "rampuri")
 o.showdetails()
         
         
