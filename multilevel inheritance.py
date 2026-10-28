@@ -67,6 +67,7 @@ class cat(Animal):
         Animal.showdetails(self)
         print(f"species: {self.species}")
 
-class 
+class persiancat(cat):
+    
         
         
