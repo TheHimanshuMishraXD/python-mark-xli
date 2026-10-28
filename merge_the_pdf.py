@@ -7,3 +7,5 @@ mergr = PdfWriter()
 
 for pdf in ("pdf 1", "pdf-2", "pdf-3"):
     mergr.append(pdf)
+
+mergr.write("out-basic-pdf")
