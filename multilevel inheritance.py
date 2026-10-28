@@ -69,8 +69,7 @@ class cat(Animal):
 
 class persiancat(cat):
     def __init__(self, name, color):
-
-        cat.__init__(self,name,breed="persian")
+        super.__init__(name,color)
 
 o = persiancat("billa", "rampuri")
 o.showdetails()
