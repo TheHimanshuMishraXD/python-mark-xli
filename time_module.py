@@ -5,8 +5,8 @@ def usingwhile():
         print(i)
 
 def usingfor():
-    for i in range(5)
-    print(i)
+    for i in range(5):
+      print(i)
 
 usingwhile()
 usingfor(s)
