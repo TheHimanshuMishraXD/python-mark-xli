@@ -29,7 +29,7 @@ class Godenretirever:
         Dog.showdetails(self)
         print(f'colour: {self.colour}')
 
-o = Godenretirever("tommy","black")
+o = Dog("tommy","black")
 o.show_details()
 print(Godenretirever.mro())
 
