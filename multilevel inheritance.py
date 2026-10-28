@@ -52,5 +52,8 @@ print(Godenretirever.mro())
 class Animal:
     def __init__(self,name,species):
         self.name = name
-        
+        self.species = species
+
+    def showdetails(self):
+        print(f"the name is : {self.name} and the species is {self.species}")
         
