@@ -49,7 +49,7 @@ merger = PdfWriter()
 
 files = [
           file for file in os.listdir() 
-          if file.endswith(".pdf" and file != "merger-pdf.pdf")
+          if file.endswith(".pdf") and file != "merger-pdf.pdf"
           ]
 
 for pdf in files:
