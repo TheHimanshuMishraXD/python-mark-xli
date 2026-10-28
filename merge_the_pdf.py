@@ -1,24 +1,24 @@
-# write a program to manipulate pdf files using pyPDF. your programs should be able
-# to merge multiple pdf files into a single pdf. you are welcome with more functionalites
+# # write a program to manipulate pdf files using pyPDF. your programs should be able
+# # to merge multiple pdf files into a single pdf. you are welcome with more functionalites
     
 
+# # from pypdf import PdfWriter
+# # mergr = PdfWriter()
+# # )
+# # for pdf in ["pdf", "pdf-2", "pdf-3"]:
+# #     mergr.append(pdf)
+
+# # mergr.write("out-basic-pdf"
+
+
 # from pypdf import PdfWriter
-# mergr = PdfWriter()
-# )
-# for pdf in ["pdf", "pdf-2", "pdf-3"]:
-#     mergr.append(pdf)
+# import os
 
-# mergr.write("out-basic-pdf"
+# merger = PdfWriter()
+# files = [file for file in os.listdir() if file.endswith(".pdf")]
 
+# for pdf in files:
+#     merger.append(pdf)
 
-from pypdf import PdfWriter
-import os
-
-merger = PdfWriter()
-files = [file for file in os.listdir() if file.endswith(".pdf")]
-
-for pdf in files:
-    merger.append(pdf)
-
-merger.write("merger-pdf.pdf")
-merger.close()
+# merger.write("merger-pdf.pdf")
+# merger.close()
