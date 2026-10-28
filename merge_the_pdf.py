@@ -12,10 +12,12 @@
 
 
 from pypdf import PdfWriter
+import os
 
 merger = PdfWriter()
+files = [file for file in os.listdir() if file.endswith(".pdf")]
 
-for pdf in ["example.pdf", "hello-world.pdf", "jpeg.pdf"]:
+for pdf in files["example.pdf", "hello-world.pdf", "jpeg.pdf"]:
     merger.append(pdf)
 
 merger.write("out-basic.pdf")
