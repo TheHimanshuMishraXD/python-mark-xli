@@ -31,4 +31,5 @@ class Godenretirever:
 
 o = Godenretirever("tommy","black")
 o.show_details()
+print(Godenretirever.mro())
 
