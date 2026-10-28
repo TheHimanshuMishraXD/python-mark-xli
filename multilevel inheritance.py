@@ -14,9 +14,12 @@ class Dog(Animal):
         self.breed = breed
 
     def showdetails(self):
-        Animal.showdetails(self):
+        Animal.showdetails(self)
+        print(f"breed : {self.breed}")
 
 
 
-class Godenretirever
+class Godenretirever:
+    def __init__(self,name,colour):
+        Dog.__int__(self,name,breed="Golden retriever")
 
