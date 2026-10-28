@@ -11,5 +11,6 @@ def usingfor():
 init = time.time()
 
 usingwhile()
-print(time.time()-init)
+print(time.time()-init)  
 usingfor()
+print(time.time()-init)  
