@@ -61,4 +61,8 @@ class Animal:
 class cat(Animal):
     def __init__(self, name, color):
         self.color = color
+        Animal.__init__(self,name,species="cat")
+
+    def showdetails(self):
+        
         
