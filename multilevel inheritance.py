@@ -59,5 +59,6 @@ class Animal:
 
 
 class cat(Animal):
-    
+    def __init__(self, name, color):
+        self.color = color
         
