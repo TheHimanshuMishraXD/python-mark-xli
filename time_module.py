@@ -13,4 +13,4 @@ init = time.time()
 usingwhile()
 print(time.time()-init)  
 usingfor()
-print(time.time()-init)  
+print(time.time()-init)  # ye batata hai ki apka program kitne time me run kia hai
