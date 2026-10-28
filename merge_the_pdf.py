@@ -47,4 +47,13 @@ import os
 
 merger = PdfWriter()
 
-files = [for file in file in os.listdir() if file.endswith(".pdf" and file != "merger-pdf.pdf")]
+files = [file in file in os.listdir() if file.endswith(".pdf" and file != "merger-pdf.pdf")]
+
+for pdf in files:
+    merger.append(pdf)
+
+
+merger.write("merger-pdf.pdf")
+merger.close()
+
+print("PDF merged successfully")
