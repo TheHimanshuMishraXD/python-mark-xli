@@ -1,3 +1,4 @@
+import time
 def usingwhile():
     i = 0
     while i < 5:
@@ -7,6 +8,8 @@ def usingwhile():
 def usingfor():
     for i in range(5):
       print(i)
+init = time.time()
 
 usingwhile()
+print(time.time()-init)
 usingfor()
