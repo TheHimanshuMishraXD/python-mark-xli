@@ -6,7 +6,7 @@ parser.add_argument("arg1",help="description of argument 1")
 parser.add_argument("arg2",help = "description of argument 2")
 
 
-args = pareser.parse_args()
+args = parser.parse_args()
 
 print(args.arg1)
 print(args.arg2)
