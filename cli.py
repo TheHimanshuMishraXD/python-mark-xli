@@ -5,6 +5,7 @@ import requests
 # Retrieved 2026-10-30, License - CC BY-SA 4.0
 
 def download_file(url,local_filename):
+    if locak_file name is None:
     local_filename = url.split('/')[-1]
     # NOTE the stream=True parameter below
     with requests.get(url, stream=True) as r:
