@@ -55,3 +55,17 @@ while (item := input("Enter your food: ")) and i < n:
     i += 1
 
 print("Your foods are:", food)
+
+
+foods = list()
+
+n = int(input("enter how many food you want to enter:  "))
+
+i = 0
+
+while(item := input("what food you like mostly:  ")) and i < n:
+    foods.append(item)
+
+    i = i + 1
+
+print("your food are:" , foods)
