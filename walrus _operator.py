@@ -4,3 +4,4 @@
 
 a = True
 print(a:= False)
+print(a)
