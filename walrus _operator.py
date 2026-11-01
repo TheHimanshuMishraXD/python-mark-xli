@@ -44,17 +44,17 @@
 
 
 
-food = list()
+# food = list()
 
-n = int(input("How many foods do you want to enter? "))
+# n = int(input("How many foods do you want to enter? "))
 
-i = 0
+# i = 0
 
-while (item := input("Enter your food: ")) and i < n:
-    food.append(item)
-    i += 1
+# while (item := input("Enter your food: ")) and i < n:
+#     food.append(item)
+#     i += 1
 
-print("Your foods are:", food)
+# print("Your foods are:", food)
 
 
 foods = list()
