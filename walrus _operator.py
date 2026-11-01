@@ -73,7 +73,7 @@
 
 
 
-foods = iist()
+foods = list()
 n = int(input("how many food you wants to enter"))
 
 
