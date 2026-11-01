@@ -69,3 +69,16 @@ while(item := input("what food you like mostly:  ")) and i < n:
     i = i + 1
 
 print("your food are:" , foods)
+
+
+
+
+foods = iist()
+n = int(input("how many food you wants to enter"))
+
+
+for i in range(n):
+    food = input("what is the food you like mostly:  ")
+    foods.append(food)
+
+print(f"this is your food you like mostly {foods}")
