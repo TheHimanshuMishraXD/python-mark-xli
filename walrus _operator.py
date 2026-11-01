@@ -32,7 +32,7 @@
 
 
 foods = list()
-while (food > 5) (food := input("enter the food you likr")) != "quit":
+while (foods > 5) (food := input("enter the food you likr")) != "quit":
     foods.append(food)
 
 print(foods)
