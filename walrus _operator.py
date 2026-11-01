@@ -24,7 +24,7 @@
 
 food = list()
 while True:
-    item = input("what do you like as a food   : /n")
+    item = input("what do you like as a food   : "/n)
     if item == "quit":
         break
     food.appen(item)
