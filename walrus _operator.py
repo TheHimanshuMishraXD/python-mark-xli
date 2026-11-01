@@ -40,3 +40,18 @@ print(foods)
     # if len(food) > 5:
     #     break
     # print(f"you have enterd this kind of food {len(foods)} times")
+
+
+
+
+food = list()
+
+n = int(input("How many foods do you want to enter? "))
+
+i = 0
+
+while (item := input("Enter your food: ")) and i < n:
+    food.append(item)
+    i += 1
+
+print("Your foods are:", food)
