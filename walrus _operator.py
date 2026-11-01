@@ -5,3 +5,8 @@
 a = True
 print(a:= False)
 print(a)
+
+numbers = [10,20,30,40,50]
+
+while ( n:= len(numbers)) > 0:
+    print(numbers.pop())
