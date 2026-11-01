@@ -22,9 +22,9 @@
 
 
 
-food = list()
-while True:
-    item = input("what do you like as a food   : ")
-    if item == "quit":
-        break
-    food.append(item)
+# food = list()
+# while True:
+#     item = input("what do you like as a food   : ")
+#     if item == "quit":
+#         break
+#     food.append(item)
