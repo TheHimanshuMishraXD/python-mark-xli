@@ -27,4 +27,4 @@ while True:
     item = input("what do you like as a food   : ")
     if item == "quit":
         break
-    food.appen(item)
+    food.append(item)
