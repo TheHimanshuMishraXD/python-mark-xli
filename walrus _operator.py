@@ -28,3 +28,9 @@
 #     if item == "quit":
 #         break
 #     food.append(item)
+
+
+
+foods = list()
+while (food := input("enter the food you likr")) != "quit":
+    foods.append(food)
