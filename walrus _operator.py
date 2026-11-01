@@ -34,3 +34,7 @@
 foods = list()
 while (food := input("enter the food you likr")) != "quit":
     foods.append(food)
+
+    if len(food) > 5:
+        break
+    print(f"you have enterd this kind of food {len(foods)} times")
