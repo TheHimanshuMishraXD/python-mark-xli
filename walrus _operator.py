@@ -78,7 +78,7 @@ n = int(input("how many food you wants to enter"))
 
 
 for i in range(n):
-    food = input("what is the food you like mostly:  ")
+    (food := input("what is the food you like mostly:  ")) and i < n: 
     foods.append(food)
 
 print(f"this is your food you like mostly {foods}")
