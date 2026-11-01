@@ -57,18 +57,18 @@
 # print("Your foods are:", food)
 
 
-foods = list()
+# foods = list()
 
-n = int(input("enter how many food you want to enter:  "))
+# n = int(input("enter how many food you want to enter:  "))
 
-i = 0
+# i = 0
 
-while(item := input("what food you like mostly:  ")) and i < n:
-    foods.append(item)
+# while(item := input("what food you like mostly:  ")) and i < n:
+#     foods.append(item)
 
-    i = i + 1
+#     i = i + 1
 
-print("your food are:" , foods)
+# print("your food are:" , foods)
 
 
 
