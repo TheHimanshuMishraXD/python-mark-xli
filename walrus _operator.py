@@ -13,11 +13,11 @@
 
 
 
-happy = False
-print(happy)
+# happy = False
+# print(happy)
 
 
-print(happy := True)
+# print(happy := True)
 
 
 
