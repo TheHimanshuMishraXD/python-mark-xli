@@ -31,11 +31,11 @@
 
 
 
-foods = list()
-while (foods > 5) (food := input("enter the food you likr")) != "quit":
-    foods.append(food)
+# foods = list()
+# while (foods > 5) (food := input("enter the food you likr")) != "quit":
+#     foods.append(food)
 
-print(foods)
+# print(foods)
 
     # if len(food) > 5:
     #     break
