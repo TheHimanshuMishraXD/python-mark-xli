@@ -67,7 +67,7 @@
 
 
 # class student(person):
-#     def __init__(self,name,age,course):            
+#     def __init__(self,name,age,course):                      
 #         super().__init__(name,age)     
 #         self.course = course
 
