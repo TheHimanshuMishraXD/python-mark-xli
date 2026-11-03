@@ -9,3 +9,5 @@ shutil.copy("test.py" , "tupple.py")
 # "test.py"	Source file, jisko copy karna hai
 # "tupple.py"	Destination file, jisme copy banegi
 
+
+# agar hame 1 pure folder ko copy karna hai to hum shutil.copytree() ka use krege q ki shutil.copy file ke liye use hota h
