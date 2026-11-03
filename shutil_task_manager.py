@@ -41,7 +41,7 @@
 # - if-elif-else use karna hai.
 # - Error handling ke liye try-except use karna hai.
 
-import shutil
+import shutil as su
 import os
 choice = int(input("enter the operation you want to perform: "))
 
