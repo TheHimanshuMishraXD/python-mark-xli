@@ -25,4 +25,9 @@ shutil.move("tutorial/file.file" , "file.file")
 
 
 
-# so lets agar hame kisi 
+# so lets agar hame kisi folder ko delete karna hai to hum shutil.rmtree() ka use krege. Ye function folder ke andar ke sare files aur folders ko delete kar deta hai.
+shutil.rmtree("test2") #here the test 2 is folder
+
+
+
+and agar hame kisi file ko delete karna hai to hum os.remove() ka use krege. Ye function file ko delete kar deta hai.
