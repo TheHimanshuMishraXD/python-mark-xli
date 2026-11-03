@@ -1,0 +1,45 @@
+# Goal: Ek program banana hai jo user ke commands ke according files aur folders manage kare.
+# Requirements
+# 1. User se operation input lo.
+# 2. User ko ye options dikhao:
+#    - 1 → File copy
+#    - 2 → Folder copy
+#    - 3 → File move
+#    - 4 → Folder move
+#    - 5 → Folder delete
+#    - 6 → File delete
+#    - 7 → Exit
+# 3. User se source aur destination paths input lo.
+# 4. Operation perform karo.
+# 5. Successful operation par message print karo.
+# Example output
+# ===== FILE MANAGER =====
+
+# 1. Copy File
+# 2. Copy Folder
+# 3. Move File
+# 4. Move Folder
+# 5. Delete Folder
+# 6. Delete File
+# 7. Exit
+
+# Enter your choice: 1
+
+# Enter source file: test.py
+# Enter destination file: backup.py
+
+# File copied successfully!
+
+
+# Conditions
+# - shutil.copy() use karna hai.
+# - shutil.copytree() use karna hai.
+# - shutil.move() use karna hai.
+# - shutil.rmtree() use karna hai.
+# - os.remove() use karna hai.
+# - while loop use karna hai.
+# - if-elif-else use karna hai.
+# - Error handling ke liye try-except use karna hai.
+
+
+
