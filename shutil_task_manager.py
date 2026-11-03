@@ -42,4 +42,11 @@
 # - Error handling ke liye try-except use karna hai.
 
 
+choice = int(input("enter the operation you want to perform: "))
+
+options = {1:"File.copy", 2:"Folder.copy", 3:"File.move", 4:"Folder.move", 5:"Folder.delete", 6:"File.delete" ,7:"Exit"}
+
+if choice in options:
+    print(f"you have selected {options[choice]}")
+
 
