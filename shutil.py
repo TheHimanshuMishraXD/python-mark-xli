@@ -22,3 +22,7 @@ shutil.move("tutorial/file.file" , "file.file")
 
 #  isme scene ye hai ki ki agar tutorial folder ke andar file.file hai to usko move karne ke baad tutorial folder khali ho jayega. Agar hame tutorial folder ko bhi move karna hai to hum shutil.move() ka use krege.
 
+
+
+
+# so lets agar hame kisi 
