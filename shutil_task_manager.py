@@ -56,6 +56,8 @@ if choice in options:
                 destination = input("enter the destination the file path : ")
                 shutil.copy(source, destination)
                 print("file copied successfully brother !!")
-
+            case 2:
+                source = input("enter the source file path where the folder is present in ur pc: ")
+                destinatn
 
 
