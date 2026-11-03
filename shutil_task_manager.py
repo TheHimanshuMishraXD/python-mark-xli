@@ -86,14 +86,14 @@ try:
                 print("file is deleted successfully brother!!")
             case 7:
                 print("bhai tune select kiya exit to chal bye bye !!")
-except FileNotFoundError:
-       print("File or folder not found!")
+except FileNotFoundError as e:
+       print(f"File or folder not found! {e}")
 
-except PermissionError:
-       print("Permission denied!")
+except PermissionError as e:
+       print("Permission denied! {e}")
 
-except ValueError:
-       print("Wrong value entered!")
+except ValueError as e:
+       print(f"Wrong value entered! {e} ")
 
 except Exception as e:
        print(f"Something went wrong: {e}")
