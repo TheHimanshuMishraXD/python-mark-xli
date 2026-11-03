@@ -14,3 +14,7 @@ shutil.copy("test.py" , "tupple.py")
 
 shutil.copytree("test" , "test2")
 
+
+
+# .move use file ko move karne ke liye hota hai. Agar hame file ko ek jagah se dusri jagah move karna hai to hum shutil.move() ka use krege.
+shutil.move("test.py" , "test2/test.py")
