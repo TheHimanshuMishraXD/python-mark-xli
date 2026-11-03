@@ -54,7 +54,8 @@ if choice in options:
             case 1:
                 source = input("enter the source file path: ")
                 destination = input("enter the destination the file path : ")
-                shutile.copy(source, destination)
+                shutil.copy(source, destination)
                 print("file copied successfully brother !!")
+
 
 
