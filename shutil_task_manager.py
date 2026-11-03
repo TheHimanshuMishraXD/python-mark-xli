@@ -63,8 +63,13 @@ if choice in options:
                 print("folder is copied succesfully brother !!")
             case 3:
                 source = input("enter the source file path where the file is present in ur pc: ")
-                destination = input("enter the deatination file path where u want to move the file : ")
+                destination = input("enter the destination file path where u want to move the file : ")
                 shutil.move(source , destination)
-                print("file is moved successfully brother")
+                print("file is moved successfully brother !!")
+            case 4:
+                source = input("enter the source file path where the folder is present in ur pc: ")
+                destination = input("enter the destination ehere  u want to move the folder: ")
+                shutil.move(source , destination)
+                print
 
 
