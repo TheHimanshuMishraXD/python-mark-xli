@@ -18,3 +18,6 @@ shutil.copytree("test" , "test2")
 
 # .move use file ko move karne ke liye hota hai. Agar hame file ko ek jagah se dusri jagah move karna hai to hum shutil.move() ka use krege.
 shutil.move("tutorial/file.file" , "file.file")
+
+
+#  isme scene ye hai ki ki agar tutorial folder ke andar file.file hai to usko move karne ke baad tutorial folder khali ho jayega. Agar hame tutorial folder ko bhi move karna hai to hum shutil.move() ka use krege.
