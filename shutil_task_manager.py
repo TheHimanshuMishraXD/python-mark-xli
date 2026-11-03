@@ -82,12 +82,14 @@ if choice in options:
                 print("file is deleted successfully brother!!")
             case 7:
                 print("bhai tune select kiya exit to chal bye bye !!")
-    except Exception as e:
-        print(f"file or folder not found brother {e}")
-    except FileNotFoundError :
-        print("file or folder is not found brother !! ")
-    except PermissionError:
-        print("bhai permission error aa rha hai !!")
-    except ValueError:
-        print("brother u have enterd wrong value !! ")
+    except FileNotFoundError:
+       print("File or folder not found!")
 
+    except PermissionError:
+       print("Permission denied!")
+
+    except ValueError:
+       print("Wrong value entered!")
+
+    except Exception as e:
+       print(f"Something went wrong: {e}")
