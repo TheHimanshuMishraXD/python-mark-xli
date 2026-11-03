@@ -88,4 +88,6 @@ if choice in options:
         print("file or folder is not found brother !! ")
     except PermissionError:
         print("bhai permission error aa rha hai !!")
+    except ValueError:
+        print("brother u have enterd wrong value !! ")
 
