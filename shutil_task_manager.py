@@ -50,7 +50,7 @@ import os
 # if choice in options:
 #     print(f"you have selected {options[choice]}")
 
-    try:
+try:
         choice = int(input("enter the operation you want to perform: "))
         options = {1:"File.copy", 2:"Folder.copy", 3:"File.move", 4:"Folder.move", 5:"Folder.delete", 6:"File.delete" ,7:"Exit"}
         if choice in options:
@@ -86,14 +86,14 @@ import os
                 print("file is deleted successfully brother!!")
             case 7:
                 print("bhai tune select kiya exit to chal bye bye !!")
-    except FileNotFoundError:
+except FileNotFoundError:
        print("File or folder not found!")
 
-    except PermissionError:
+except PermissionError:
        print("Permission denied!")
 
-    except ValueError:
+except ValueError:
        print("Wrong value entered!")
 
-    except Exception as e:
+except Exception as e:
        print(f"Something went wrong: {e}")
