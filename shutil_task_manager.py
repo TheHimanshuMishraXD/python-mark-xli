@@ -49,4 +49,12 @@ options = {1:"File.copy", 2:"Folder.copy", 3:"File.move", 4:"Folder.move", 5:"Fo
 if choice in options:
     print(f"you have selected {options[choice]}")
 
+    try:
+        match choice:
+            case 1:
+                source = input("enter the source file path: ")
+                destination = input("enter the destination the file path : ")
+                shutile.copy(source, destination)
+                print("file copied successfully brother !!")
+
 
