@@ -41,7 +41,8 @@
 # - if-elif-else use karna hai.
 # - Error handling ke liye try-except use karna hai.
 
-
+import shutil
+import os
 choice = int(input("enter the operation you want to perform: "))
 
 options = {1:"File.copy", 2:"Folder.copy", 3:"File.move", 4:"Folder.move", 5:"Folder.delete", 6:"File.delete" ,7:"Exit"}
@@ -70,6 +71,16 @@ if choice in options:
                 source = input("enter the source file path where the folder is present in ur pc: ")
                 destination = input("enter the destination ehere  u want to move the folder: ")
                 shutil.move(source , destination)
-                print
-
+                print("folder is moved successfully brother !!:")
+            case 5:
+                source = input("enter the source of the folder that you want to delete: ")
+                shutil.rmtree(source)
+                print("folder is deleted successfully brother !!")
+            case 6:
+                source = input("enter the source of the file that you want to delete: ")
+                os.remove(source)
+                print("file is deleted successfully brother!!")
+            case 7:
+                print("bhai tune select kiya exit to chal bye bye !!")
+                
 
