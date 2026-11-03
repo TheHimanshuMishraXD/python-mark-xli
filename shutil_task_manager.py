@@ -98,7 +98,7 @@ except ValueError as e:
 except Exception as e:
        print(f"Something went wrong: {e}")
 
-
+# so here we have created a file manager program that can perform various file and folder operations based on user input. The program uses the `shutil` module for copying and moving files and folders, and the `os` module for deleting files. It also includes error handling to manage common issues like file not found, permission errors, and invalid input.
 
 
 
