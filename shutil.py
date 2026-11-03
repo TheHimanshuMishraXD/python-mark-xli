@@ -3,3 +3,9 @@
 import shutil
 shutil.copy("test.py" , "tupple.py")
 
+# Isme:
+# Code	Meaning
+# shutil.copy()	File copy karne ka function
+# "test.py"	Source file, jisko copy karna hai
+# "tupple.py"	Destination file, jisme copy banegi
+
