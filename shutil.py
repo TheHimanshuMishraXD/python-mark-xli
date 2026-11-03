@@ -11,3 +11,6 @@ shutil.copy("test.py" , "tupple.py")
 
 
 # agar hame 1 pure folder ko copy karna hai to hum shutil.copytree() ka use krege q ki shutil.copy file ke liye use hota h
+
+shutil.copytree("test" , "test2")
+
