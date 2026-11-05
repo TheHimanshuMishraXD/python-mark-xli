@@ -7,4 +7,4 @@
 
 
 url = "https://jsonplaceholder.typicode.com/posts"
-response = request.get(url)
+response = requests.post(url , headers =headers , json = data)
