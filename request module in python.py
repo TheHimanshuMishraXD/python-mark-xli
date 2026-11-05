@@ -8,8 +8,13 @@
 import requests
 
 data = {
-    title : 'my foo', body : 'bar', userId : 1
+    "title": "my foo",
+    "body": "bar",
+    "userId": 1
 } 
+headers = {
+    "Content-Type": "application/json; charset=UTF-8"
+}
 
 url = "https://jsonplaceholder.typicode.com/posts"
 response = requests.post(url , headers =headers , json = data)
