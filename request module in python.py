@@ -3,4 +3,4 @@
 import requests
 responses = requests.get("https://www.google.com")
 
-print(responses.text)
+print(responses.text)  # This will print the HTML content of the Google homepage
