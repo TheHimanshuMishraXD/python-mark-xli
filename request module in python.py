@@ -8,3 +8,4 @@
 
 url = "https://jsonplaceholder.typicode.com/posts"
 response = requests.post(url , headers =headers , json = data)
+print(response.text)
