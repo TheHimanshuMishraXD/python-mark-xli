@@ -4,3 +4,6 @@ import requests
 responses = requests.get("https://www.facebook.com")
 
 print(responses.text)  # This will print the HTML content of the Google homepage
+
+
+url = "https://jsonplaceholder.typicode.com/posts"
