@@ -7,3 +7,4 @@ print(responses.text)  # This will print the HTML content of the Google homepage
 
 
 url = "https://jsonplaceholder.typicode.com/posts"
+response = requests.get(url)
