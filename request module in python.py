@@ -6,6 +6,11 @@
 # print(responses.text)  # This will print the HTML content of the Google homepage
 
 import requests
+
+data = {
+    title : 'my foo', body : 'bar', userId : 1
+} 
+
 url = "https://jsonplaceholder.typicode.com/posts"
 response = requests.post(url , headers =headers , json = data)
 print(response.text) 
