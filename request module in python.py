@@ -24,3 +24,5 @@ import requests
 # scraping ke liye use hone wala like :-
 
 url =  "https://www.codewithharry.com/blog"
+r = requests.get(url)
+print(r.text)
