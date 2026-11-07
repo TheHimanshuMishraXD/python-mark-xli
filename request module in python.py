@@ -27,13 +27,12 @@ from bs4 import BeautifulSoup
 
 url =  "https://www.codewithharry.com/blog"
 r = requests.get(url)
-print(r.text)
+# print(r.text)
 
 
 
 # bs4 ---> BeautifulSoup (bs4) Python ki third-party library hai,
 #  jiska use Web Scraping mein website ke HTML data se required information extract karne ke liye hota hai.
-
 
 soup = BeautifulSoup(r.text , 'html.parser')
 print(soup.prettify )
