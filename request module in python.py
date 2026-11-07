@@ -36,3 +36,4 @@ r = requests.get(url)
 soup = BeautifulSoup(r.text , 'html.parser')
 for heading in soup.find_all('h2'): 
 # print(soup.prettify )
+print(heading.text)
