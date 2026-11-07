@@ -61,6 +61,6 @@ soup = BeautifulSoup(r.text , 'html.parser')
 p = price
 for heading in soup.find_all('h2'): 
     print(heading.text)
-for heading in soup.find_all('p' , 'class' = 'price_color'):
+for heading in soup.find_all('p' , class_= 'price_color'):
     print(heading.text)
     
