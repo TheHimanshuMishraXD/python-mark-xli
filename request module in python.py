@@ -6,6 +6,8 @@
 # print(responses.text)  # This will print the HTML content of the Google homepage
 
 import requests
+from bs4 import BeautifulSoup
+
 
 # data = {
 #     "title": "himanshu bhai",
