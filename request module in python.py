@@ -7,16 +7,18 @@
 
 import requests
 
-data = {
-    "title": "himanshu bhai",
-    "body": "bar",
-    "userId": 12
-} 
-headers = {
-    "Content-Type": "application/json; charset=UTF-8"
-}
+# data = {
+#     "title": "himanshu bhai",
+#     "body": "bar",
+#     "userId": 12
+# } 
+# headers = {
+#     "Content-Type": "application/json; charset=UTF-8"
+# }
 
-url = "https://jsonplaceholder.typicode.com/posts"
-response = requests.post(url , headers =headers , json = data)
-print(response.text)                  
+# url = "https://jsonplaceholder.typicode.com/posts"
+# response = requests.post(url , headers =headers , json = data)
+# print(response.text)                  
             
+
+# scraping ke liye use hone wala like :
