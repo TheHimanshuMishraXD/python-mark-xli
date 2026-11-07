@@ -8,7 +8,7 @@
 import requests
 
 data = {
-    "title": "my foo",
+    "title": "himanshu bhai",
     "body": "bar",
     "userId": 12
 } 
