@@ -5,8 +5,8 @@
 
 # # print(responses.text)  # This will print the HTML content of the Google homepage
 
-# import requests
-# from bs4 import BeautifulSoup
+import requests
+from bs4 import BeautifulSoup
 
 
 # # data = {
@@ -51,8 +51,7 @@
 # [ ] Saari book titles print karo.
 # [ ] Saari book prices print karo.
 
-import requests
-form bs4 import BeautifulSoup
+
 url = "https://books.toscrape.com/"
 r = requests.get(url)
 print(r.text) # so this is the html content of the website bro
