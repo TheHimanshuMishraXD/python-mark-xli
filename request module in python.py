@@ -52,7 +52,7 @@
 # [ ] Saari book prices print karo.
 
 import requests
-form bs4 imprt BeautifulSoup
+form bs4 import BeautifulSoup
 url = "https://books.toscrape.com/"
 r = requests.get(url)
 print(r.text) # so this is the html content of the website bro
