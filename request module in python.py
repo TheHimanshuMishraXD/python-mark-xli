@@ -59,5 +59,8 @@ print(r.text) # so this is the html content of the website bro
 
 
 soup = BeautifulSoup(r.text , 'html,parser')
-for heading in soup.find_all('h3'):
-    print(heading.text) 
+p = price
+for heading in soup.find_all('h2'):
+    print(heading.text)
+    print(p.text)
+    
