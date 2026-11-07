@@ -21,4 +21,6 @@ import requests
 # print(response.text)                  
             
 
-# scraping ke liye use hone wala like :
+# scraping ke liye use hone wala like :-
+
+url =  "https://www.codewithharry.com/blog"
