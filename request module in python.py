@@ -34,4 +34,4 @@ print(r.text)
 
 from bs4 import BeautifulSoup
 soup = BeautifulSoup(html_dov , 'html.parser')
-print(soup.prettify)
+print(soup.prettify  )
