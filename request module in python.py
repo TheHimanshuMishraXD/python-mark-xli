@@ -34,5 +34,5 @@ r = requests.get(url)
 #  jiska use Web Scraping mein website ke HTML data se required information extract karne ke liye hota hai.
 
 soup = BeautifulSoup(r.text , 'html.parser')
-for heading in soup.find_all('h2'):
-print(soup.prettify )
+for heading in soup.find_all('h2'): 
+# print(soup.prettify )
