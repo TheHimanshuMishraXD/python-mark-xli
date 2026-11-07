@@ -55,7 +55,7 @@ r = requests.get(url)
 
 url = "https://books.toscrape.com/"
 r = requests.get(url)
-print(r,text) # so this is the html content of the website bro
+print(r.text) # so this is the html content of the website bro
 
 
 soup = BeautifulSoup(r.text , 'html,parser')
