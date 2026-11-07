@@ -60,7 +60,8 @@ print(r.text) # so this is the html content of the website bro
 
 soup = BeautifulSoup(r.text , 'html.parser')
 p = price
-for heading in soup.find_all('h2'):
+for heading in soup.find_all('h2'): 
     print(heading.text)
-    print(p.text)
+for heading in soup.find_all('p' , class = 'price_color'):
+    print(heading.text)
     
