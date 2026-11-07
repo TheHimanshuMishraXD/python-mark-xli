@@ -53,7 +53,12 @@ Your progress
 
 
 
+url = "https://books.toscrape.com/"
+r = requests.get(url)
+print(r,text) # so this is the html content of the website bro
 
 
 
-https://books.toscrape.com/
+
+
+# https://books.toscrape.com/
