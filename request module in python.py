@@ -33,12 +33,12 @@ r = requests.get(url)
 # bs4 ---> BeautifulSoup (bs4) Python ki third-party library hai,
 #  jiska use Web Scraping mein website ke HTML data se required information extract karne ke liye hota hai.
 
-soup = BeautifulSoup(r.text , 'html.parser')
-for heading in soup.find_all('h2'): 
-# print(soup.prettify )
-    print(heading.text)     
+# soup = BeautifulSoup(r.text , 'html.parser')
+# for heading in soup.find_all('h2'): 
+# # print(soup.prettify )
+#     print(heading.text)     
 
-Your progress
+# Your progress
 
 # 0/6
 
@@ -58,7 +58,6 @@ r = requests.get(url)
 print(r,text) # so this is the html content of the website bro
 
 
-
-
-
-# https://books.toscrape.com/
+soup = BeautifulSoup(r.text , 'html,parser')
+for heading in soup.find_all('h3'):
+    print(heading.text) 
