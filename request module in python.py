@@ -36,4 +36,24 @@ r = requests.get(url)
 soup = BeautifulSoup(r.text , 'html.parser')
 for heading in soup.find_all('h2'): 
 # print(soup.prettify )
-    print(heading.text)   
+    print(heading.text)     
+
+Your progress
+
+# 0/6
+
+
+
+# [ ] Website ka HTML fetch karo using requests.get().
+# [ ] HTML content print karo using r.text.
+# [ ] BeautifulSoup se HTML parse karo.
+# [ ] Saare h2 headings find karo.
+# [ ] Saari book titles print karo.
+# [ ] Saari book prices print karo.
+
+
+
+
+
+
+https://books.toscrape.com/
