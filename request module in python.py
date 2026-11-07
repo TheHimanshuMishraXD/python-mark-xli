@@ -10,7 +10,7 @@ import requests
 data = {
     "title": "my foo",
     "body": "bar",
-    "userId": 1
+    "userId": 12
 } 
 headers = {
     "Content-Type": "application/json; charset=UTF-8"
@@ -19,4 +19,4 @@ headers = {
 url = "https://jsonplaceholder.typicode.com/posts"
 response = requests.post(url , headers =headers , json = data)
 print(response.text)                  
-         
+            
