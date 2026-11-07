@@ -33,5 +33,5 @@ print(r.text)
 #  jiska use Web Scraping mein website ke HTML data se required information extract karne ke liye hota hai.
 
 from bs4 import BeautifulSoup
-soup = BeautifulSoup(html_dov , 'html.parser')
+soup = BeautifulSoup(html_dev , 'html.parser')
 print(soup.prettify )
