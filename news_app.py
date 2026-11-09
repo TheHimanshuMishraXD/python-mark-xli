@@ -34,7 +34,7 @@ choices = {1: "technology", 2: "sports", 3: "business", 4: "entertainment", 5: "
 match user_input:
     case 1:
         url = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4'
-        {f"https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"}
+        {f"https://newsapi.org/v2/top-headlines?country=us&category={choices[user_input]}&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"}
     case 2:
         url = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4'
         {f"https://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"}
