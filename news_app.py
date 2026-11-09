@@ -1,3 +1,3 @@
 # exercise 10 
 # use the request module to fetch the daily  news related to diffrent topics got to the newsapi.org
-and explore the various operation to build your applicatio
+# and explore the various operation to build your application
