@@ -40,3 +40,4 @@ match choices:
         {f"https://newsapi.org/v2/top-headlines?country=us&category={Entertainment}&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"}
     case 5:
         {f"https://newsapi.org/v2/top-headlines?country=us&category={Science}&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"}
+        
