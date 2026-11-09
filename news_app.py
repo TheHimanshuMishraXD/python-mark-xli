@@ -29,6 +29,7 @@ req = requests.get(url)
 # print(req.text)
 print("===== DAILY NEWS APP =====")
 print("choose the option given below")
+print("technology,sports,business,entertainment,science")
 user_input = int(input("enter your choice of news category: "))
 choices = {1: "technology", 2: "sports", 3: "business", 4: "entertainment", 5: "science"}
 match user_input:
