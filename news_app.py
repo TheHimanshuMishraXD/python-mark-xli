@@ -29,3 +29,6 @@ req = requests.get(url)
 print(req.text)
 user_input = input("enter your choice of news category: ")
 choices = ("1. Technology" , "2. sports" , "3. Business" , "4. Entertainment" , "5. Science")
+match choices:
+    case 1:
+            
