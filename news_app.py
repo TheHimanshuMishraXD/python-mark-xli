@@ -33,5 +33,7 @@ match choices:
     case 1:
         {f"https://newsapi.org/v2/top-headlines?country=us&category={Technology}apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"}
     case 2:
-        {f"https://newsapi.org/v2/top-headlines?country=uscatergory={Sports}&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"}
+        {f"https://newsapi.org/v2/top-headlines?country=us&category={Sports}&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"}
+    case 3:
+        {f"https://newsapi.org/v2/top-headlines?country=us&category={Business}&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"}
 
