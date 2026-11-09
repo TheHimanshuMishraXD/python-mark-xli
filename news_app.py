@@ -31,13 +31,13 @@ user_input = int(input("enter your choice of news category: "))
 choices = ("1. Technology" , "2. sports" , "3. Business" , "4. Entertainment" , "5. Science")
 match choices:
     case 1:
-        {f"https://newsapi.org/v2/top-headlines?country=us&category={Technology}apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"}
+        {f"https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"}
     case 2:
-        {f"https://newsapi.org/v2/top-headlines?country=us&category={Sports}&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"}
+        {f"https://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"}
     case 3:
-        {f"https://newsapi.org/v2/top-headlines?country=us&category={Business}&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"}
+        {f"https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"}
     case 4:
-        {f"https://newsapi.org/v2/top-headlines?country=us&category={Entertainment}&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"}
+        {f"https://newsapi.org/v2/top-headlines?country=us&category=entertainment&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"}
     case 5:
-        {f"https://newsapi.org/v2/top-headlines?country=us&category={Science}&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"}
+        {f"https://newsapi.org/v2/top-headlines?country=us&category=science&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"}
         
