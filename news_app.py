@@ -44,3 +44,5 @@ match user_input:
     case 5:
         {f"https://newsapi.org/v2/top-headlines?country=us&category=science&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"}
         
+req = requests.get(url)
+data = req.json()
