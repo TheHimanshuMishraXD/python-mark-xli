@@ -36,7 +36,7 @@ match user_input:
         
         url = {f"https://newsapi.org/v2/top-headlines?country=us&category={choices[user_input]}&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"}
     case 2:
-        url = {f"https://newsapi.org/v2/top-headlines?country=us&category{choices[user_input]}&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"}
+        url = f"https://newsapi.org/v2/top-headlines?country=us&category{choices[user_input]}&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"
     case 3:
         
        url = {f"https://newsapi.org/v2/top-headlines?country=us&category{choices[user_input]}&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"}
