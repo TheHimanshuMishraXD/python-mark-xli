@@ -38,13 +38,13 @@ match user_input:
     case 2:
         url = f"https://newsapi.org/v2/top-headlines?country=us&category={choices[2]}&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"
     case 3:
-        
        url = f"https://newsapi.org/v2/top-headlines?country=us&category={choices[3]}&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"
     case 4:
         
        url =  f"https://newsapi.org/v2/top-headlines?country=us&category={choices[4]}&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"
     case 5:
-        url = f"https://newsapi.org/v2/top-headlines?country=us&category={choices[user_input]}&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"
+        url = f"https://newsapi.org/v2/top-headlines?country=us&category={choices[5]}&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"
         
 req = requests.get(url)
 data = req.json()
+print(data)
