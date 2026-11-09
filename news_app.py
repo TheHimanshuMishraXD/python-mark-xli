@@ -43,8 +43,10 @@ match user_input:
         url = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4'
         {f"https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"}
     case 4:
+        url = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4'
         {f"https://newsapi.org/v2/top-headlines?country=us&category=entertainment&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"}
     case 5:
+        url = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4'
         {f"https://newsapi.org/v2/top-headlines?country=us&category=science&apiKey=dea0cc03e4a94416b48d8b6f80b4e2e4"}
         
 req = requests.get(url)
