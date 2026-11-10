@@ -13,4 +13,13 @@ gen = my_generator()
 # print(next(gen))
 for j in gen:          
     print(j)
-    
+
+# yield – Value generate karta hai aur function pause karta hai.
+
+
+
+# next() – Generator se next value leta hai.
+
+
+
+# Generator – Large data ko efficiently process karne mein help karta hai.
