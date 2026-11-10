@@ -50,4 +50,4 @@ data = req.json()
 for articles in data["articles"]:
     print("title" , articles["title"])
     print("description" , articles["description"])
-print(data)     
+print(data)         
