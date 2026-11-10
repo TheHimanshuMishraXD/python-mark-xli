@@ -2,7 +2,7 @@
 # the yield keyword instead of returning all values at once using return.
 
 def my_generator():
-    for i in range(5):
+    for i in range(500):
         yield i
 
 gen = my_generator()
