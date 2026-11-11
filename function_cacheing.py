@@ -6,27 +6,27 @@
 # 1. Execution time reduce karta hai.
 # 2. Repeated calculations avoid karta hai.
 # 3. Program ki performance improve karta hai.
-from functools import lru_cache
-import time
-@lru_cache(maxsize=None)
-def fx(n): 
-    time.sleep(5)
-    return n*5
+# from functools import lru_cache
+# import time
+# @lru_cache(maxsize=None)
+# def fx(n): 
+#     time.sleep(5)
+#     return n*5
 
-print(fx(20))
-print('done for 20')
-print(fx(6))
-print('done for 6')
-print(fx(4))
-print('done for 4')
+# print(fx(20))
+# print('done for 20')
+# print(fx(6))
+# print('done for 6')
+# print(fx(4))
+# print('done for 4')
 
 
-print(fx(20))
-print('done for 20')        
-print(fx(6))    
-print('done for 6')
-print(fx(4))
-print('done for 4')
+# print(fx(20))
+# print('done for 20')        
+# print(fx(6))    
+# print('done for 6')
+# print(fx(4))
+# print('done for 4')
 # so basically baat ye hai ki idhr ye suruwaat ke 20,6,4 --> ka result nikalta hai ----> and jo second ki same values hai unka
 # result turant compute kr deta hai q ki wo values uske cache me stored hai aur  ye chiz usko pata hai to wo isko turant caluclate
 # kr leta hai
@@ -54,7 +54,7 @@ def dx(n):
 
 print(dx(6))
 print('done for 6')
-print(fx(6))
+print(dx(6))
 print('done for 6')
 print(dx(6))
 print('done for6')
