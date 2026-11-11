@@ -50,4 +50,7 @@ import time
 @lru_cache(maxsize=None)
 def dx(n):
     time.sleep(3):
-    return n    
+    return n*3
+
+print(dx(6))
+print('done for 6')
