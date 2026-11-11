@@ -42,7 +42,7 @@ for j in gen:
 # ...
 # 10
    
-  
+        
 # Condition: return ya list use nahi karna. yield use karna hai.
 
 # Task 2 – Even Number Generator
