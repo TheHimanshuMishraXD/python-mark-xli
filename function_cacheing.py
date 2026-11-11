@@ -10,4 +10,5 @@ import functools
 import time
 @functools.lru_cache(maxsize=None)
 def fx(n):
+    time.sleep(5)
     print(fib(20))
