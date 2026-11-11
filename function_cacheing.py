@@ -30,4 +30,4 @@ print('done for 4')
 # so basically baat ye hai ki idhr ye suruwaat ke 20,6,4 --> ka result nikalta hai ----> and jo second ki same values hai unka
 # result turant compute kr deta hai q ki wo values uske cache me stored hai aur  ye chiz usko pata hai to wo isko turant caluclate
 # kr leta hai
-jisse ye memoize kar leta hai calculation ko
+# jisse ye memoize kar leta hai calculation ko  
