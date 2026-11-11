@@ -31,3 +31,7 @@ print('done for 4')
 # result turant compute kr deta hai q ki wo values uske cache me stored hai aur  ye chiz usko pata hai to wo isko turant caluclate
 # kr leta hai
 # jisse ye memoize kar leta hai calculation ko  
+
+
+
+# form here we are doing some tasks on the basis of given exercise
