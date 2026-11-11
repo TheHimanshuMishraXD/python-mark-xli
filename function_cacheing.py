@@ -49,7 +49,7 @@ from functools import lru_cache
 import time 
 @lru_cache(maxsize=None)
 def dx(n):
-    time.sleep(3):
+    time.sleep(3)
     return n*3
 
 print(dx(6))
