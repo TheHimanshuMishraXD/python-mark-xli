@@ -7,7 +7,7 @@
 # 2. Repeated calculations avoid karta hai.
 # 3. Program ki performance improve karta hai.
 import functools
-
+import time
 @functools.lru_cache(maxsize=None)
 def fx(n):
-    print
+    print(fib(20))
