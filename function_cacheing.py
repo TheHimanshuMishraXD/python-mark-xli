@@ -27,3 +27,4 @@ print(fx(6))
 print('done for 6')
 print(fx(4))
 print('done for 4')
+so basically baat ye hai ki idhr ye suruwaat ke 20,6,4 --> 
