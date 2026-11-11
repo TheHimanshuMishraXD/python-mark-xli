@@ -35,3 +35,16 @@ print('done for 4')
 
 
 # form here we are doing some tasks on the basis of given exercise
+# Task 1: Basic Memoization
+# Ek function cube(n) banao jo:
+# 1. Number ka cube return kare.
+# 2. time.sleep(3) use karo.
+# 3. @lru_cache(maxsize=None) lagao.
+# 4. Same number ko 3 baar call karo.
+# 5. Observe karo ki first call slow aur baaki instant hain ya nahi.
+# Example calls:
+# print(cube(4))print(cube(4))print(cube(4))
+
+from functools import lru_cache
+import time 
+@lru_cache(maxsize=None)
