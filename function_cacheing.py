@@ -6,10 +6,10 @@
 # 1. Execution time reduce karta hai.
 # 2. Repeated calculations avoid karta hai.
 # 3. Program ki performance improve karta hai.
-import functools
+from functools import lru_cache
 import time
 @lru_cache(maxsize=None)
-def fx(n):
+def fx(n): 
     time.sleep(5)
     return n*5
 
