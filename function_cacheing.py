@@ -7,3 +7,5 @@
 # 2. Repeated calculations avoid karta hai.
 # 3. Program ki performance improve karta hai.
 import functools
+
+@functools.lru_cache(maxsize=None)
