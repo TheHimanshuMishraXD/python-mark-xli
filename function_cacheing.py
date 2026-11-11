@@ -14,3 +14,4 @@ def fx(n):
     return n*5
 
 print(fx(20))
+print('done for 20')
