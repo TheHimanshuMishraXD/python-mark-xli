@@ -54,3 +54,5 @@ def dx(n):
 
 print(dx(6))
 print('done for 6')
+print(fx(6))
+print('done for 6')
