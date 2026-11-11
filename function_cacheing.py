@@ -9,3 +9,5 @@
 import functools
 
 @functools.lru_cache(maxsize=None)
+def fx(n):
+    print
