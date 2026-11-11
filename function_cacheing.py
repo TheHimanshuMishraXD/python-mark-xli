@@ -8,7 +8,7 @@
 # 3. Program ki performance improve karta hai.
 import functools
 import time
-@functools.lru_cache(maxsize=None)
+@lru_cache(maxsize=None)
 def fx(n):
     time.sleep(5)
     return n*5
@@ -16,6 +16,6 @@ def fx(n):
 print(fx(20))
 print('done for 20')
 print(fx(6))
-print('done for 20')
+print('done for 6')
 print(fx(4))
 print('done for 4')
