@@ -48,3 +48,6 @@ print('done for 4')
 from functools import lru_cache
 import time 
 @lru_cache(maxsize=None)
+def dx(n):
+    time.sleep(3):
+    return n    
