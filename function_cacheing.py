@@ -12,3 +12,5 @@ import time
 def fx(n):
     time.sleep(5)
     return n*5
+
+print(fx(20))
