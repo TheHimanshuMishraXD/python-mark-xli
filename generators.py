@@ -29,52 +29,52 @@ for j in gen:
 
 
 
-Python Generator – Coding Tasks
-Task 1 – Number Generator
-Easy
+# Python Generator – Coding Tasks
+# Task 1 – Number Generator
+# Easy
 
-Ek generator function my_generator() banao jo 1 se 10 tak numbers yield kare.
+# Ek generator function my_generator() banao jo 1 se 10 tak numbers yield kare.
 
-Expected output:
-1
-2
-3
-...
-10
+# Expected output:
+# 1
+# 2
+# 3
+# ...
+# 10
+   
+
+# Condition: return ya list use nahi karna. yield use karna hai.
+
+# Task 2 – Even Number Generator
+# Easy
+
+# Ek generator banao jo 1 se 20 tak sirf even numbers generate kare.
+
+# Expected output:
+# 2 4 6 8 10 12 14 16 18 20
 
 
-Condition: return ya list use nahi karna. yield use karna hai.
 
-Task 2 – Even Number Generator
-Easy
+# Task 3 – Next Function
+# Medium
 
-Ek generator banao jo 1 se 20 tak sirf even numbers generate kare.
+# Ek generator banao jo 5, 10, 15, 20 generate kare.
 
-Expected output:
-2 4 6 8 10 12 14 16 18 20
+# next() ka use karke har value separately print karo.
 
+# Task 4 – Custom Countdown
+# Medium
 
+# Ek generator banao jo 10 se 1 tak countdown kare.
 
-Task 3 – Next Function
-Medium
+# Task 5 – File Reader
+# Real-world
 
-Ek generator banao jo 5, 10, 15, 20 generate kare.
+# Ek generator function banao jo kisi text file ko line by line read kare aur yield kare.
 
-next() ka use karke har value separately print karo.
+# Let's start: Task 1
+# Apna code yahan likh:
 
-Task 4 – Custom Countdown
-Medium
+# Check my codeShow hint
 
-Ek generator banao jo 10 se 1 tak countdown kare.
-
-Task 5 – File Reader
-Real-world
-
-Ek generator function banao jo kisi text file ko line by line read kare aur yield kare.
-
-Let's start: Task 1
-Apna code yahan likh:
-
-Check my codeShow hint
-
-Pehle Task 1 complete kar. Main code review karke bataunga ki logic sahi hai ya nahi. 😎
+# Pehle Task 1 complete kar. Main code review karke bataunga ki logic sahi hai ya nahi. 😎
