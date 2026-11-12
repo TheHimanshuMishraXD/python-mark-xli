@@ -52,11 +52,11 @@ def dx(n):
     time.sleep(3)
     return n*3
 
-print(dx(6))
+print(dx(6))  
 print('done for 6')
 print(dx(6))
 print('done for 6')
 print(dx(6))
 print('done for6')         
 # so here our code is totally ended
-# congr
+# congratulations guys
