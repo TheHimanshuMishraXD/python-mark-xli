@@ -5,5 +5,5 @@ from plyer import notification
 import time
 if __name__ == "__main__":
     while True:
-       notification.notify(print("water reminder","Drink Water"))
+       notification.notify("water reminder","Drink Water")
        time.sleep(3600)
