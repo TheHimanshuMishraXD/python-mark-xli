@@ -6,4 +6,4 @@ import time
 if __name__ == "__main__":
     while True:
        notification.notify("water reminder","Drink Water")
-       time.sleep(3600)
+       time.sleep(3)
