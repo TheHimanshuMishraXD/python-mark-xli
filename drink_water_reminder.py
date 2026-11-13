@@ -3,9 +3,6 @@
 # desktop notification for a specific operating system
 from player import notification
 import time
-if __name__ == "__main__"
-while True:
-    notification.notify{
-
-}
-    
+if __name__ == "__main__":
+    while True:
+       notification.notify
