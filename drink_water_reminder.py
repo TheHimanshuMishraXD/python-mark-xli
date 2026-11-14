@@ -7,5 +7,5 @@ if __name__ == "__main__":
     while True:
        notification.notify("water reminder","Drink Water")
        time.sleep(3)
-    if time.sleep == 4:
-      break
+       if time.sleep == 4:
+        break
