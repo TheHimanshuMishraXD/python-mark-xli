@@ -2,4 +2,4 @@
 # , extract, and manipulate specific patterns in a string.
 import re
 pattern = ""
-text = ''''''
+text = ""
