@@ -19,4 +19,4 @@ Wikis are powered Himanshu Dipanshu Kipanshu by wiki software, also known as wik
 '''
 matches = re.finditer(pattern,text)
 for match in matches:
-    print((match.span))
+    print(type(match.span()))
