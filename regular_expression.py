@@ -18,4 +18,5 @@ Wikis are powered Himanshu Dipanshu Kipanshu by wiki software, also known as wik
 
 '''
 match = re.finditer(pattern,text)
-print(match)
+for match in matches:
+    print(match)
