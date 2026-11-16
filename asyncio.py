@@ -13,3 +13,6 @@ def function2():
 def function3():
     time.sleep(3)
     print("func 3")
+
+function1()
+function2()
