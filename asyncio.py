@@ -9,3 +9,6 @@ def function1():
 def function2():
     time.sleep(3)
     print("func 2")
+
+def function3():
+    time.sleep(3)
