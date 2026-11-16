@@ -3,11 +3,11 @@
 import time
 import asyncio
 
-def function1():
+asyncio def function1():
     time.sleep(3)
     print("func 1")
 
-def function2():
+asyncio def function2():
     time.sleep(3)
     print("func 2")
 
