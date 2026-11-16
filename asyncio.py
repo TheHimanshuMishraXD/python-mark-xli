@@ -4,3 +4,7 @@ import time
 
 def function1():
     time.sleep(3)
+    print("func 1")
+
+def function2():
+    time.sleep(3)
