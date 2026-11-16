@@ -20,4 +20,4 @@ async def main():
     await function2()
     await function3()
 
-asyncio.run
+asyncio.run(main())
