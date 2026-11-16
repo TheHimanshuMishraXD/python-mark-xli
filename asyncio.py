@@ -15,6 +15,9 @@ async def function3():
     time.sleep(2)
     print("func 3")
 async def main():
+    task = asyncio.create_task(function1())
   await function1()
   await function2()
   await function3()
+
+asyncio.run
