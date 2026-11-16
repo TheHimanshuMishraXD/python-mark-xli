@@ -3,15 +3,15 @@
 import time
 import asyncio
 
-asyncio def function1():
+async def function1():
     time.sleep(3)
     print("func 1")
 
-asyncio def function2():
+async def function2():
     time.sleep(3)
     print("func 2")
 
-asyncio def function3():
+async def function3():
     time.sleep(2)
     print("func 3")
 
