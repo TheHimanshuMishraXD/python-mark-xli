@@ -12,7 +12,7 @@ asyncio def function2():
     print("func 2")
 
 asyncio def function3():
-    time.sleep(3)
+    time.sleep(2)
     print("func 3")
 
 function1()
