@@ -4,7 +4,7 @@ import time
 import asyncio
 
 async def function1():
-    time.sleep(3)
+    await.sleep(3)
     print("func 1")
 
 async def function2():
