@@ -14,7 +14,7 @@ async def function2():
 async def function3():
     time.sleep(2)
     print("func 3")
-
-function1()
-function2()
-function3()
+async def main()
+await function1()
+await function2()
+await function3()
