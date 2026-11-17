@@ -6,11 +6,12 @@ import asyncio
 async def function1():
     await asyncio.sleep(3)
     print("func 1")
+    return "Harry"
 
 async def function2():
     await asyncio.sleep(3)
     print("func 2")
-    return "Harry"
+    
 
 async def function3():
     await asyncio.sleep(3)
