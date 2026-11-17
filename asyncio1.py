@@ -5,7 +5,7 @@ import asyncio
 
 async def function1():
     await asyncio.sleep(1)
-    print("func 1")
+    print("func1")
     return "Harry"
 
 async def function2():
