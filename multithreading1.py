@@ -9,9 +9,9 @@ def func(seconds):
 
 time1 = time.perf_counter()
 # #normal code
-# func(4)
-# func(2)
-# func(12)  
+func(4)
+func(2)
+func(12)  
 time2 = time.perf_counter()
 print(time2-time1)
 #code using thread
