@@ -6,6 +6,8 @@ import time
 def func(seconds):
     print(f"sleeping for {seconds} seconds")
     time.sleep(seconds)
+
+time1 = time.perf_counter()
 # #normal code
 # func(4)
 # func(2)
