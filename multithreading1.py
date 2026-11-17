@@ -14,3 +14,6 @@ def func(seconds):
 t1 = threading.Thread(target=func , args=[4])
 t2 = threading.Thread(target=func,args=[3])
 t3 = threading.Thread(target=func,args=[5])
+t1.start
+t2.start
+t3.start
