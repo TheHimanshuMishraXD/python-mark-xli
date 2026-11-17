@@ -12,6 +12,8 @@ time1 = time.perf_counter()
 # func(4)
 # func(2)
 # func(12)  
+time2 = time.perf_counter()
+print(time2-time1)
 #code using thread
 t1 = threading.Thread(target=func , args=[4])
 t2 = threading.Thread(target=func,args=[3])
