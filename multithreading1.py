@@ -4,5 +4,5 @@ import threading
 import time
 # indicate some task being done
 def func():
-    print(f"sleeping")
+    print(f"sleeping for {seconds} seconds")
     time.sleep(seconds)
