@@ -6,9 +6,9 @@ import time
 def func(seconds):
     print(f"sleeping for {seconds} seconds")
     time.sleep(seconds)
-
+#normal code
 func(4)
 func(2)
 func(12)
-
-t1 = threading.Thread(target=)
+#code using thread
+t1 = threading.Thread(target=func , args=[4])
