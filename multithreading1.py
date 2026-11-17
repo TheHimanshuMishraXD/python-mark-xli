@@ -6,11 +6,11 @@ import time
 def func(seconds):
     print(f"sleeping for {seconds} seconds")
     time.sleep(seconds)
-#normal code
-func(4)
-func(2)
-func(12)
+# #normal code
+# func(4)
+# func(2)
+# func(12)  
 #code using thread
 t1 = threading.Thread(target=func , args=[4])
-t2 = threading.Thread(target=func,args[3])
+t2 = threading.Thread(target=func,args=[3])
 t3 = threading.Thread(target=func,args=[5])
