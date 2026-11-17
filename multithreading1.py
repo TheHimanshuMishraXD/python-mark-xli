@@ -2,6 +2,6 @@
 #  tasks ko concurrently execute karna.
 import threading
 import time
-
+# indicate some task being done
 def func():
     time.sleep(3)
