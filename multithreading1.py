@@ -10,3 +10,5 @@ def func(seconds):
 func(4)
 func(2)
 func(12)
+
+t1 = threading.Thread(target=)
