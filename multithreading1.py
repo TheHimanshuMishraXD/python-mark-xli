@@ -13,4 +13,4 @@ func(12)
 #code using thread
 t1 = threading.Thread(target=func , args=[4])
 t2 = threading.Thread(target=func,args[3])
-t3 = 
+t3 = threading.Thread(target=func,args=[5])
