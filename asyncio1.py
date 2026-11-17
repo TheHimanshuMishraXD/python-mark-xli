@@ -22,4 +22,4 @@ async def main():
         function2,
         function3,
     )
-asyncio.run(main())
+# asyncio.run(main())
