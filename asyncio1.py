@@ -17,9 +17,9 @@ async def function3():
     await asyncio.sleep(4)
     print("func 3")
 async def main():
-    task = asyncio.create_task(function1())
-    #  await function1()
-    await function2()
-    await function3()
-
+    L = await asyncio.gather(
+        function1(),
+        function2,
+        function3,
+    )
 asyncio.run(main())
