@@ -10,6 +10,7 @@ async def function1():
 async def function2():
     await asyncio.sleep(3)
     print("func 2")
+    return "Harry"
 
 async def function3():
     await asyncio.sleep(3)
