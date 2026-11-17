@@ -6,3 +6,7 @@ import time
 def func():
     print(f"sleeping for {seconds} seconds")
     time.sleep(seconds)
+
+func(4)
+func(2)
+func(12)
