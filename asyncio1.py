@@ -19,8 +19,8 @@ async def function3():
 async def main():
     L = await asyncio.gather(
         function1(),
-        function2,
-        function3,
+        function2(),
+        function3(),
     )
     print(L)
 # asyncio.run(main())
