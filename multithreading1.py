@@ -79,3 +79,4 @@ def forten(n):
 tq = threading.Thread(target=forten,args=[10])
 tq.start()
 tq.join()
+print("for ten it is done")
