@@ -96,3 +96,5 @@ t3.start()
 t1.join()
 t2.join()
 t3.join()
+
+print("all tables are printer successfully")
