@@ -62,3 +62,5 @@ def table(n):
 t1 =  threading.Thread(target=table, args=[2])
 t1.start()
 t1.join()
+
+##for 5
