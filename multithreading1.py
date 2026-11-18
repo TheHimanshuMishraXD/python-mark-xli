@@ -70,3 +70,9 @@ def forfive(n):
 t1 = threading.Thread(target=forfive,args=[5])
 t1.start()
 t1.join()
+
+def forten(n):
+    for i in range(2,11):
+        print(f"{i} * {n} = {i*n}")
+
+tq = threading.Thread(target=)
