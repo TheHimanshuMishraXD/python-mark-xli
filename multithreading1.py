@@ -61,3 +61,4 @@ def table(n):
         print(f"{n}*{i} = {n*i}")
 t1 =  threading.Thread(target=table, args=[2])
 t1.start()
+t1.join()
