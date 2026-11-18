@@ -87,3 +87,4 @@ def table(n):
 
 t1 = threading.Thread(target=table,args=[2])
 t2 = threading.Thread(target=table,args=[5])
+t3 = threading.Thread(target=table,args=[10])
