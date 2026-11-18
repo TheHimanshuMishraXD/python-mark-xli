@@ -62,7 +62,7 @@ def table(n):
 t1 =  threading.Thread(target=table, args=[2])
 t1.start()
 t1.join()
-
+print("for 2 is done")
 ##for 5
 def forfive(n):
     for i in range (2,11):
@@ -70,6 +70,7 @@ def forfive(n):
 t1 = threading.Thread(target=forfive,args=[5])
 t1.start()
 t1.join()
+print("for  five it it totally done")
 
 def forten(n):
     for i in range(2,11):
