@@ -56,27 +56,27 @@
 # - start() aur join() use karo.
 import threading
 import time
-def table(n):
-    for i in range (2,11):
-        print(f"{n}*{i} = {n*i}")
-t1 =  threading.Thread(target=table, args=[2])
-t1.start()
-t1.join()
-print("for 2 is done")
-##for 5
-def forfive(n):
-    for i in range (2,11):
-        print(f"{n}*{i} = {n*i}")
-t1 = threading.Thread(target=forfive,args=[5])
-t1.start()
-t1.join()
-print("for  five it it totally done")
+# def table(n):
+#     for i in range (2,11):
+#         print(f"{n}*{i} = {n*i}")
+# t1 =  threading.Thread(target=table, args=[2])
+# t1.start()
+# t1.join()
+# print("for 2 is done")
+# ##for 5
+# def forfive(n):
+#     for i in range (2,11):
+#         print(f"{n}*{i} = {n*i}")
+# t1 = threading.Thread(target=forfive,args=[5])
+# t1.start()
+# t1.join()
+# print("for  five it it totally done")
 
-def forten(n):
-    for i in range(2,11):
-        print(f"{i} * {n} = {i*n}")
+# def forten(n):
+#     for i in range(2,11):
+#         print(f"{i} * {n} = {i*n}")
 
-tq = threading.Thread(target=forten,args=[10])
-tq.start()
-tq.join()
-print("for ten it is done")
+# tq = threading.Thread(target=forten,args=[10])
+# tq.start()
+# tq.join()
+# print("for ten it is done")
