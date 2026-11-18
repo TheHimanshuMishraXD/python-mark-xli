@@ -75,4 +75,6 @@ def forten(n):
     for i in range(2,11):
         print(f"{i} * {n} = {i*n}")
 
-tq = threading.Thread(target=)
+tq = threading.Thread(target=forten,args=[10])
+tq.start()
+tq.join()
