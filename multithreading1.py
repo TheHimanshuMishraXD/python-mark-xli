@@ -40,6 +40,9 @@ def poolingDemo():
     #   print(future.result())
     # isko use karne ka ik or syntax hai using map
     l = [3,2,4,5,6]
+    results = executor.map(func,1)
+    for result in results:
+        print(result)
 
 
 
