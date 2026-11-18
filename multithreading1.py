@@ -21,5 +21,10 @@ t3 = threading.Thread(target=func,args=[5])
 t1.start()
 t2.start()
 t3.start()
+
+t1.join()
+t2.join()
+t3.join()
+#calculating time
 time2 = time.perf_counter()
 print(time2-time1)
