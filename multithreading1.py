@@ -42,4 +42,4 @@ def poolingDemo():
 
 
 
-poolingdemo()
+poolingDemo()
