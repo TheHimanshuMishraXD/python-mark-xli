@@ -2,7 +2,7 @@
 #  tasks ko concurrently execute karna.
 import threading
 import time
-from concurrent.futures import ThreadPoolExecutor  # ye help karta hai jab aap bulk me bahut saare task execute krna chahte ho 
+from concurrent.futures import ThreadPoolExecutor  # ye help karta hai jab aap bulk me bahut saare task execute krna chahte ho  to usme help krta hai
 # indicate some task being done
 def func(seconds):
     print(f"sleeping for {seconds} seconds")
@@ -32,8 +32,8 @@ def main():
 
 def poolingDemo():
     with ThreadPoolExecutor(max_workers=1) as executor:
-    future = executor.submit(pow, 323, 1235)
-    print(future.result())
+      future = executor.submit(pow, 323, 1235)
+      print(future.result())
 
 
 
