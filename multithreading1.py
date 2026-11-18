@@ -91,7 +91,7 @@ t2 = threading.Thread(target=table,args=[5])
 t3 = threading.Thread(target=table,args=[10])
 
 t1.start()
-t1.start()
+t2.start()
 t3.start()
 
 t1.join()
