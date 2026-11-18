@@ -2,29 +2,40 @@
 #  tasks ko concurrently execute karna.
 import threading
 import time
+from concurrent.futures import ThreadPoolExecutor  # ye help karta hai
 # indicate some task being done
 def func(seconds):
     print(f"sleeping for {seconds} seconds")
     time.sleep(seconds)
+def main():
+    time1 = time.perf_counter()
+    # #normal code
+    # func(4)
+    # func(2)
+    # func(12)  
+    # time2 = time.perf_counter()
+    # print(time2-time1)
+    #code using thread
+    t1 = threading.Thread(target=func , args=[4])
+    t2 = threading.Thread(target=func,args=[3])
+    t3 = threading.Thread(target=func,args=[5])
+    t1.start()
+    t2.start()
+    t3.start()
 
-time1 = time.perf_counter()
-# #normal code
-# func(4)
-# func(2)
-# func(12)  
-# time2 = time.perf_counter()
-# print(time2-time1)
-#code using thread
-t1 = threading.Thread(target=func , args=[4])
-t2 = threading.Thread(target=func,args=[3])
-t3 = threading.Thread(target=func,args=[5])
-t1.start()
-t2.start()
-t3.start()
+    t1.join()
+    t2.join()
+    t3.join()
+    #calculating time   
+    time2 = time.perf_counter()
+    print(time2-time1)
 
-t1.join()
-t2.join()
-t3.join()
-#calculating time
-time2 = time.perf_counter()
-print(time2-time1)
+def poolingDemo():
+    with ThreadPoolExecutor(max_workers=1) as executor:
+    future = executor.submit(pow, 323, 1235)
+    print(future.result())
+
+
+
+
+poolingdemo()
