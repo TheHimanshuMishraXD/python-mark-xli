@@ -54,3 +54,5 @@
 # - 3 threads create karo.
 # - Tables of 2, 5 and 10 execute karo.
 # - start() aur join() use karo.
+import threading
+import time
