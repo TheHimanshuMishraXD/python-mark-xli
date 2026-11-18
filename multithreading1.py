@@ -68,3 +68,5 @@ def forfive(n):
     for i in range (2,11):
         print(f"{n}*{i} = {n*i}")
 t1 = threading.Thread(target=forfive,args=[5])
+t1.start()
+t1.join()
