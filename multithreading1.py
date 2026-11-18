@@ -31,7 +31,11 @@ def main():
     print(time2-time1)
 
 def poolingDemo():
-    with ThreadPoolExecutor(max_workers=1) as executor:
+    with ThreadPoolExecutor() as executor:
+      future = executor.submit(func , 3)
+      print(future.result())
+      future = executor.submit(func , 3)
+      print(future.result())
       future = executor.submit(func , 3)
       print(future.result())
 
