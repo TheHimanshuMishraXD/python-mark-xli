@@ -32,7 +32,7 @@ def main():
 
 def poolingDemo():
     with ThreadPoolExecutor(max_workers=1) as executor:
-      future = executor.submit(pow, 323, 1235)
+      future = executor.submit(func , 3)
       print(future.result())
 
 
