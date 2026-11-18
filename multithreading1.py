@@ -86,5 +86,4 @@ def table(n):
         print(f"{i} * {n} = {i*n}")
 
 t1 = threading.Thread(target=table,args=[2])
-
-t1 = threading.Thread(target=table,args=[2])
+t2 = threading.Thread(target=table,args=[5])
