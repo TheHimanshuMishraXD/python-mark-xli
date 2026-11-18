@@ -80,7 +80,8 @@
 # tq.start()
 # tq.join()
 # print("for ten it is done")
-
+import threading
+impor`time
 def table(n):
     for i in range(2,11):
         print(f"{i} * {n} = {i*n}")
