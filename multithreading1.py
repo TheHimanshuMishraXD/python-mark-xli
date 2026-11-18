@@ -54,8 +54,8 @@
 # - 3 threads create karo.
 # - Tables of 2, 5 and 10 execute karo.
 # - start() aur join() use karo.
-import threading
-import time
+# import threading
+# import time
 # def table(n):
 #     for i in range (2,11):
 #         print(f"{n}*{i} = {n*i}")
