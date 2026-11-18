@@ -39,6 +39,7 @@ def poolingDemo():
     #   future = executor.submit(func , 5)
     #   print(future.result())
     # isko use karne ka ik or syntax hai using map
+    l = [3,2,4,5,6]
 
 
 
