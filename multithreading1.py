@@ -42,7 +42,7 @@ def poolingDemo():
      l = [3,2,4,5,6]
      results = executor.map(func,l)
      for result in results:
-        print(result)
+        print(result)  #agar hame bohot saare urls se download krna hai ya iski list ho to aise krge
 
 
 
