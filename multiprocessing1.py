@@ -86,3 +86,4 @@ def create_file(name):
     with open("file1.txt", "w") as f:
       f.write("Hello World")
     p1 = multiprocessing.Process(target=create_file,args=[file2.txt])
+    p2 = multiprocessing.Process(target=create_file,args=[file3.txt])
