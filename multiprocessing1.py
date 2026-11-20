@@ -52,6 +52,7 @@ def tables(n):
         print(f"{i} * {n} = {i*n}")
 
 if __name__ == "__main__":
+    
     p1 = multiprocessing.process(target = tables , args = [2])
     p2 = multiprocessing.process(target = tables , args = [5])
     p3 = multiprocessing.process(target = tables , args = [10])
@@ -65,4 +66,4 @@ if __name__ == "__main__":
     p3.join()
      
 
-    print("all tables printed s")
+    print("all tables printed successfully")
