@@ -7,4 +7,4 @@ def downloadfile(url,name):
 url = "https://picsum.photos/200/300"
 for i in range(5):
     # downloadfile(url, i)
-    p = multiprocessing.Process(target=downloadfile)
+    p = multiprocessing.Process(target=downloadfile, args = [url,i])
