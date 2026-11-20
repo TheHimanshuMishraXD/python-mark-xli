@@ -1,8 +1,10 @@
 import multiprocessing
 import requests
 def downloadfile(url,name):
+    rint(f"finished downloading {name}")
     response = requests.get(url)
     open(f"{name}.jpg","wb").write(response.content)
+    print(f"finished downloading {name}")
     
 url = "https://picsum.photos/200/300"
 pros = []
@@ -13,5 +15,5 @@ for i in range(5):
     pros.append(p)
 
 
-for p in pros:
+for p in pros:  
     p.join() 
