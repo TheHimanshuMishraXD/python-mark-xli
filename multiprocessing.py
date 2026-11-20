@@ -1,4 +1,4 @@
-import multiptocessing
+import multiprocessing
 import requests
 def downloadfile(url,name):
     response = requests.get(url)
