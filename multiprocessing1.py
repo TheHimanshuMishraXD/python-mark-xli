@@ -83,8 +83,8 @@ import requests
 import multiprocessing
 
 def create_file(name):
-    with open("file1.txt", "w") as f:
-      f.write("Hello World")
+    with open(f"{name}", "w") as f:
+      f.write("")
     p1 = multiprocessing.Process(target=create_file,args=["file2.txt"])
     p2 = multiprocessing.Process(target=create_file,args=["file3.txt"])
     p3 = multiprocessing.Process(target=create_file,args=["file4.txt"])
