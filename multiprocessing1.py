@@ -81,5 +81,8 @@
 
 import requests
 import multiprocessing
+
 def create_file(name):
-    p1 = mu
+    with open("file1.txt", "w") as f:
+      f.write("Hello World")
+    p1 = multiprocessing.Process(target=create_file,args=[file2.txt])
