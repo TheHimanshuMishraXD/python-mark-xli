@@ -9,12 +9,12 @@ def downloadfile(url,name):
 if __name__ == "__main__":
   url = "https://picsum.photos/200/300"
   pros = []
-for i in range(5):
+  for i in range(5):
     # downloadfile(url, i)
     p =  multiprocessing.Process(target=downloadfile, args = [url, i])
     p.start()
     pros.append(p)
 
 
-for p in pros:  
+  for p in pros:  
     p.join() 
