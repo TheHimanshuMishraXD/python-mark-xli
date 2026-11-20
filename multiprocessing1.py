@@ -109,15 +109,15 @@
     
 
 
-Task 3: Multiprocessing Image Downloader
-Challenge
-Tumhare aaj ke project ka improved version.
+# Task 3: Multiprocessing Image Downloader
+# Challenge
+# Tumhare aaj ke project ka improved version.
 
-Requirements:
-- 5 images download karo.
-- 5 processes create karo.
-- Har image ka naam unique hona chahiye.
-- requests.get() use karo.
-- join() se completion ensure karo.
-- Sabhi downloads complete hone par final message print karo.
-Extra: requests.get() mein timeout aur status checking bhi add karna.
+# Requirements:
+# - 5 images download karo.
+# - 5 processes create karo.
+# - Har image ka naam unique hona chahiye.
+# - requests.get() use karo.
+# - join() se completion ensure karo.
+# - Sabhi downloads complete hone par final message print karo.
+# Extra: requests.get() mein timeout aur status checking bhi add karna.
