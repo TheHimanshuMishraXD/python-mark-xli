@@ -1,7 +1,7 @@
 import multiprocessing
 import requests
 def downloadfile(url,name):
-    rint(f"finished downloading {name}")
+    rint(f"started downloading {name}")
     response = requests.get(url)
     open(f"{name}.jpg","wb").write(response.content)
     print(f"finished downloading {name}")
