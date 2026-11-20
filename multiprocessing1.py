@@ -67,3 +67,14 @@
      
 
 #     print("all tables printed successfully")
+
+# Task 2: Multiprocessing File Creator
+# Intermediate
+# Ek function banao create_file(name).
+
+# Requirements:
+# - 5 processes create karo.
+# - Har process ek alag .txt file create kare.
+# - Files ke naam file1.txt se file5.txt tak hon.
+# - Har file mein apna naam aur process completion message likho.
+# - join() use karo.
