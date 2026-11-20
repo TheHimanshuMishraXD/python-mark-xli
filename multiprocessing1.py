@@ -7,7 +7,7 @@ def downloadfile(url,name):
     print(f"finished downloading {name}")
 
 if __name__ == "__main__":
-url = "https://picsum.photos/200/300"
+  url = "https://picsum.photos/200/300"
 pros = []
 for i in range(5):
     # downloadfile(url, i)
