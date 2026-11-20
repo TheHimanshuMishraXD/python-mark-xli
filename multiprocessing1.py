@@ -24,3 +24,4 @@ if __name__ == "__main__":
 with concurrent.futures.ProcessPoolExecutor() as executor:
     l1 = [url for i in range(5)]
     l2 =  [i for i in range(6)]
+    results = executor.map(downloadfile,l1,l2)
