@@ -6,4 +6,4 @@ def downloadfile(url,name):
     pass
 url = ["https://picsum.photos/200/300"]
 for _ in range(5):
-    downloadfile(url,i)
+    downloadfile(url, i)
