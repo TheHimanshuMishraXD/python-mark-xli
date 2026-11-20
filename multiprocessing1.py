@@ -44,26 +44,26 @@
 # 6. join() se sabhi processes complete hone ka wait karo.
 # Expected output concept:
 
-import multiprocessing
-import requests
+# import multiprocessing
+# import requests
 
-def tables(n):
-    for i in range(2,11):
-        print(f"{i} * {n} = {i*n}")
+# def tables(n):
+#     for i in range(2,11):
+#         print(f"{i} * {n} = {i*n}")
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
 
-    p1 = multiprocessing.Process(target = tables , args = [2])
-    p2 = multiprocessing.Process(target = tables , args = [5])
-    p3 = multiprocessing.process(target = tables , args = [10])
+#     p1 = multiprocessing.Process(target = tables , args = [2])
+#     p2 = multiprocessing.Process(target = tables , args = [5])
+#     p3 = multiprocessing.Process(target = tables , args = [10])
 
-    p1.start()
-    p2.start()
-    p3.start()
+#     p1.start()
+#     p2.start()
+#     p3.start()
 
-    p1.join()
-    p2.join()
-    p3.join()
+#     p1.join()
+#     p2.join()
+#     p3.join()
      
 
-    print("all tables printed successfully")
+#     print("all tables printed successfully")
