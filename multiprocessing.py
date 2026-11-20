@@ -11,3 +11,7 @@ for i in range(5):
     p = multiprocessing.Process(target=downloadfile, args = [url,i])
     p.start()
     pros.append(p)
+
+
+for p in pros:
+    p.join()
