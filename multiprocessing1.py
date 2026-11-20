@@ -51,8 +51,8 @@ def tables(n):
     for i in range(2,11):
         print(f"{i} * {n} = {i*n}")
 
-if __name__ == "__main__":
-    
+#if __name__ == "__main__":
+
     p1 = multiprocessing.process(target = tables , args = [2])
     p2 = multiprocessing.process(target = tables , args = [5])
     p3 = multiprocessing.process(target = tables , args = [10])
