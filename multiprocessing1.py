@@ -21,7 +21,6 @@ if __name__ == "__main__":
 #   for p in pros:  
 #     p.join() 
 
-def main():
-    with concurrent.futures.ProcessPoolExecutor() as executor:
-        for number, prime in zip(PRIMES, executor.map(is_prime, PRIMES)):
-            print('%d is prime: %s' % (number, prime))
+with concurrent.futures.ProcessPoolExecutor() as executor:
+    l1 = [url for i in range(5)]
+    l2 =  [i for i in range(6)]
