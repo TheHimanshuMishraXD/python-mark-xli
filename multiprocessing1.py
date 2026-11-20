@@ -43,3 +43,13 @@
 # 5. Third process table of 10 print kare.
 # 6. join() se sabhi processes complete hone ka wait karo.
 # Expected output concept:
+
+import multiprocessing
+import requests
+
+def tables(n):
+    for i in range(2,11):
+        print(f"{i} * {n} = {i*n}")
+
+if __name__ == "__main__":
+    p1 = multiprocessing.process(target = tables , args = [2])
