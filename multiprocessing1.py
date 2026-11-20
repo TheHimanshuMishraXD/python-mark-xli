@@ -53,8 +53,8 @@ def tables(n):
 
 if __name__ == "__main__":
 
-    p1 = multiprocessing.process(target = tables , args = [2])
-    p2 = multiprocessing.process(target = tables , args = [5])
+    p1 = multiprocessing.Process(target = tables , args = [2])
+    p2 = multiprocessing.Process(target = tables , args = [5])
     p3 = multiprocessing.process(target = tables , args = [10])
 
     p1.start()
