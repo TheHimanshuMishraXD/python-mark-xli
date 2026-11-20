@@ -96,3 +96,4 @@ def create_file(name):
     p2.join()
     p3.join()
     p4.join()
+    p5.join()
