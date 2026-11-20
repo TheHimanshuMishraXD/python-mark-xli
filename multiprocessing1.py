@@ -17,3 +17,5 @@ for i in range(5):
 
 for p in pros:  
     p.join() 
+
+if __name__ == __"main"__
