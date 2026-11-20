@@ -78,3 +78,6 @@
 # - Files ke naam file1.txt se file5.txt tak hon.
 # - Har file mein apna naam aur process completion message likho.
 # - join() use karo.
+
+import requests
+def downloadfile2(url,i)
