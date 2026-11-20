@@ -85,6 +85,8 @@ import multiprocessing
 def create_file(name):
     with open(f"{name}", "w") as f:
       f.write(f"{name} the file process is completed successfully")
+
+      if __name__ == "__main__"
       p1 = multiprocessing.Process(target=create_file,args=["file2.txt"])
       p2 = multiprocessing.Process(target=create_file,args=["file3.txt"])
       p3 = multiprocessing.Process(target=create_file,args=["file4.txt"])
@@ -92,8 +94,8 @@ def create_file(name):
       p5 = multiprocessing.Process(target=create_file,args=["file6.txt"])
 
 
-    p1.join()
-    p2.join()
-    p3.join()
-    p4.join()
-    p5.join()
+      p1.join()
+      p2.join()
+      p3.join()
+      p4.join()
+      p5.join()
