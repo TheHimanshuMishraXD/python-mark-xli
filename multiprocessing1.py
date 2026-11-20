@@ -93,7 +93,7 @@ if __name__ == "__main__":
         p4 = multiprocessing.Process(target=create_file,args=["file5.txt"])
         p5 = multiprocessing.Process(target=create_file,args=["file6.txt"])
 
-
+        p1.start()
         p1.join()
         p2.join()
         p3.join()
