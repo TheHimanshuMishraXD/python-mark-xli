@@ -79,31 +79,45 @@
 # - Har file mein apna naam aur process completion message likho.
 # - join() use karo.
 
-import requests
-import multiprocessing
+# import requests
+# import multiprocessing
 
-def create_file(name):
-    with open(f"{name}", "w") as f:
-      f.write(f"{name} the file process is completed successfully")
+# def create_file(name):
+#     with open(f"{name}", "w") as f:
+#       f.write(f"{name} the file process is completed successfully")
 
-if __name__ == "__main__":
-        p1 = multiprocessing.Process(target=create_file,args=["file2.txt"])
-        p2 = multiprocessing.Process(target=create_file,args=["file3.txt"])
-        p3 = multiprocessing.Process(target=create_file,args=["file4.txt"])
-        p4 = multiprocessing.Process(target=create_file,args=["file5.txt"])
-        p5 = multiprocessing.Process(target=create_file,args=["file6.txt"])
+# if __name__ == "__main__":
+#         p1 = multiprocessing.Process(target=create_file,args=["file2.txt"])
+#         p2 = multiprocessing.Process(target=create_file,args=["file3.txt"])
+#         p3 = multiprocessing.Process(target=create_file,args=["file4.txt"])
+#         p4 = multiprocessing.Process(target=create_file,args=["file5.txt"])
+#         p5 = multiprocessing.Process(target=create_file,args=["file6.txt"])
 
-        p1.start()
-        p2.start()
-        p3.start()
-        p4.start()
-        p5.start()
+#         p1.start()
+#         p2.start()
+#         p3.start()
+#         p4.start()
+#         p5.start()
 
 
-        
-        p1.join()
-        p2.join()
-        p3.join()
-        p4.join()
-        p5.join()
+
+#         p1.join()
+#         p2.join()
+#         p3.join()
+#         p4.join()
+#         p5.join()
     
+
+
+Task 3: Multiprocessing Image Downloader
+Challenge
+Tumhare aaj ke project ka improved version.
+
+Requirements:
+- 5 images download karo.
+- 5 processes create karo.
+- Har image ka naam unique hona chahiye.
+- requests.get() use karo.
+- join() se completion ensure karo.
+- Sabhi downloads complete hone par final message print karo.
+Extra: requests.get() mein timeout aur status checking bhi add karna.
