@@ -98,4 +98,4 @@ t1.join()
 t2.join()
 t3.join()
 
-print("all tables are printed successfully")
+print("all tables are printed successfully")z
