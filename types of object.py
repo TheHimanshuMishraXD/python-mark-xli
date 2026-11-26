@@ -1,4 +1,5 @@
 import time
+from os import system
 
 
     # agar kuch bulwana ho to
