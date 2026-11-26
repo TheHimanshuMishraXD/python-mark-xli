@@ -1,6 +1,6 @@
 import time
 from os import system
-namess = ["Himanshu","RaM","lUCKY","ARSHAD"]
+namess = ["Himanshu","RaM","lUCKY","ARSHAD","Akash"]
 for name in namess:
     system(f'say {namess} is presented in the class')
 
