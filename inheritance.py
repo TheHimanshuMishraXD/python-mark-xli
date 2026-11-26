@@ -19,6 +19,19 @@ class Himanshu(programmer):
           print("kya hai mere bhai sab badhiya hai ya nahi")
 
 
+class Person:
+     def __init__(self,name,age)
+     self.name = name
+     self,age = age
+
+     def showdetails(self):
+          print(f"hello everyone my name is {self.name}")
+
+
+class student(Person):
+
+
+
 
 
 e = Employee("Himanshu" , 200)
