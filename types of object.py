@@ -1,8 +1,6 @@
 import time
 from os import system
-namess = ["Himanshu","RaM","lUCKY","ARSHAD","Akash"]
-for name in namess:
-    system(f'say {namess} is presented in the class')
+
     
 
 
@@ -14,7 +12,8 @@ class Employee:
         self.salary = salary
 
     def showdetails(self):
-        print(f"so I am {self.name}")
+        for name in {self.name}:
+            system(f'say{self.name} is presented in the class')
         time.sleep(3)
         print(f"and this is my current salary : {self.salary}")
         time.sleep(2)
