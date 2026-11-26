@@ -9,8 +9,8 @@ class Employee:
         print(f"and this is my current salary : {self.salary}")
 
     
-e1 = Employee("MR HIMANSHU MISHRA",200000)
-e2 = Employee("Harsh Tiwari",100000)
+# e1 = Employee("MR HIMANSHU MISHRA",200000)
+# e2 = Employee("Harsh Tiwari",100000)
 
 e1.showdetails()
-e2.showdetails
+e2.showdetails()
