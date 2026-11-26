@@ -20,8 +20,8 @@ class Employee:
         print(f"this is my company where im currently working {self.emp_company}")
 
     
-e1 = Employee("MR HIMANSHU MISHRA",200000)
-e2 = Employee("Harsh Tiwari",100000)
+# e1 = Employee("MR HIMANSHU MISHRA",200000)
+# e2 = Employee("Harsh Tiwari",100000)
 e1 = Employee(input("enter ypur name:\n"),input("enter your salary:\n"))
 
 e1.showdetails()
@@ -53,3 +53,5 @@ e1.showdetails()
 
 # s1.showdetails()
 # # s2.showdetails()
+
+
