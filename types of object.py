@@ -14,4 +14,4 @@ class Employee:
 e1 = Employee(input("enter ypur name"),input("enter your salary"))
 
 e1.showdetails()
-e2.showdetails()
+# e2.showdetails()
