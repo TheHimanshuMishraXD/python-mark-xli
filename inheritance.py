@@ -35,10 +35,10 @@ class programmer(Employee):
 
 
 
-# e = Employee("Himanshu" , 200)
-# e.showDetails()
-# e = programmer("tINA" , 4000)
-# e.showDetails()
+e = Employee("Himanshu" , 200)
+e.showDetails()
+e = programmer("tINA" , 4000)
+e.showDetails()
 # e.showlanguage()
 # e = Himanshu("Ram" , 474)
 # e.showacc()
