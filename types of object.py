@@ -3,6 +3,7 @@ from os import system
 namess = ["Himanshu","RaM","lUCKY","ARSHAD","Akash"]
 for name in namess:
     system(f'say {namess} is presented in the class')
+    
 
 
     # agar kuch bulwana ho to
