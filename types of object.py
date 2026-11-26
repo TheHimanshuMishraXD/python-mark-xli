@@ -1,5 +1,5 @@
 class Employee:
-    emp_comapny = "MICROSOFT"
+    emp_company = "MICROSOFT"
     def __init__(self,name,salary):
         self.name = name
         self.salary = salary
@@ -7,7 +7,7 @@ class Employee:
     def showdetails(self):
         print(f"so I am {self.name}")
         print(f"and this is my current salary : {self.salary}")
-        print(f"this is my company where im currently working")
+        print(f"this is my company where im currently working {emp_comp}")
 
     
 # e1 = Employee("MR HIMANSHU MISHRA",200000)
