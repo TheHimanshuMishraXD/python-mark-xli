@@ -14,22 +14,22 @@ class programmer(Employee):
           print("python is a greate language")
 
 
-class Himanshu(programmer):
-     def showacc(self):
-          print("kya hai mere bhai sab badhiya hai ya nahi")
+# class Himanshu(programmer):
+#      def showacc(self):
+#           print("kya hai mere bhai sab badhiya hai ya nahi")
 
 
-class Person:
-     def __init__(self,name,age)
-     self.name = name
-     self,age = age
+# class Person:
+#      def __init__(self,name,age)
+#      self.name = name
+#      self,age = age
 
-     def showdetails(self):
-          print(f"hello everyone my name is {self.name}")
+#      def showdetails(self):
+#           print(f"hello everyone my name is {self.name}")
 
 
-class student(Person):
-     def __init__(self,name,age,)
+# class student(Person):
+#      def __init__(self,name,age,)
 
 
 
