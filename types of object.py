@@ -23,7 +23,7 @@ class Employee:
     
 # e1 = Employee("MR HIMANSHU MISHRA",200000)
 # e2 = Employee("Harsh Tiwari",100000)
-e1 = Employee(input("enter ypur name:\n"),input("enter your salary:\n"))
+# e1 = Employee(input("enter ypur name:\n"),input("enter your salary:\n"))
 
-e1.showdetails()
-# e2.showdetails()
+# e1.showdetails()
+# # e2.showdetails()
