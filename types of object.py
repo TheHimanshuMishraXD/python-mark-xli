@@ -9,6 +9,7 @@ class Employee:
         print(f"so I am {self.name}")
         time.sleep(3)
         print(f"and this is my current salary : {self.salary}")
+        time.sleep(2)
         print(f"this is my company where im currently working {self.emp_company}")
 
     
