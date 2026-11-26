@@ -29,6 +29,7 @@ class Person:
 
 
 class student(Person):
+     def __init__(self,name,age,)
 
 
 
