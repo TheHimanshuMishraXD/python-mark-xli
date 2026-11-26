@@ -13,7 +13,7 @@ class Employee:
 
     def showdetails(self):
         for name in {self.name}:
-            system(f'say{self.name} is presented in the class')
+            system(f'say {self.name} is presented in the class')
         time.sleep(3)
         print(f"and this is my current salary : {self.salary}")
         time.sleep(2)
