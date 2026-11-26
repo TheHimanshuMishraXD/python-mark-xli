@@ -1,3 +1,4 @@
+import time
 class Employee:
     emp_company = "MICROSOFT"
     def __init__(self,name,salary):
@@ -6,6 +7,7 @@ class Employee:
 
     def showdetails(self):
         print(f"so I am {self.name}")
+        time.sleep(3)
         print(f"and this is my current salary : {self.salary}")
         print(f"this is my company where im currently working {self.emp_company}")
 
