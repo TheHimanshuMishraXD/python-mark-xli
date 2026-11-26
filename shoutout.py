@@ -5,4 +5,4 @@ for name in names:
     system(f'say {name}  shoutout to you brother !!')
 
 
-    agar kuch bulwana ho to
+    # agar kuch bulwana ho to
