@@ -7,6 +7,7 @@ class Employee:
     def showdetails(self):
         print(f"so I am {self.name}")
         print(f"and this is my current salary : {self.salary}")
+        print(f"this is my company where im currently working")
 
     
 # e1 = Employee("MR HIMANSHU MISHRA",200000)
